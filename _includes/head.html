@@ -4,6 +4,30 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
     <meta name="description" content="{{ site.description }}">
+    <script src="{{ "/bower_components/platform/platform.js" | prepend: site.baseurl }}"></script>
+    <link rel="import" href="{{ "/bower_components/polymer/polymer.html" | prepend: site.baseurl }}">
+    {% if page.layout == 'holy-grail' %}
+    <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/jquery.countdown/dist/jquery.countdown.min.js" | prepend: site.baseurl }}"></script>
+    <link rel="import" href="{{ "/bower_components/core-header-panel/core-header-panel.html" | prepend: site.baseurl }}">
+    <link rel="import" href="{{ "/bower_components/core-toolbar/core-toolbar.html" | prepend: site.baseurl }}">
+    <style type="text/css">
+		html,body {
+    		height: 100%;
+    		margin: 0;
+  		}
+		core-header-panel {
+			height: 100%;
+			overflow: auto;
+			-webkit-overflow-scrolling: touch; 
+		}
+		core-toolbar {
+			background: rgba(250,230,20,1);
+			color: white;
+		}
+  </style>
+  {% endif %}
+    <link rel="import" href="{{ "/font-artinpocket/artinpocket.html" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS -->
