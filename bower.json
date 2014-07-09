@@ -1,0 +1,27 @@
+{
+  "name": "digitalartbarcelona.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/digitalartbarcelona/digitalartbarcelona.github.io",
+  "authors": [
+    "freecates <ramongil@ramongil.cat>"
+  ],
+  "description": "Una web app sobre la mostra d'art digital de Barcelona, creada per Oxygen.cat per a Artinpocket.",
+  "keywords": [
+    "digital",
+    "art",
+    "barcelona",
+    "mostra",
+    "artinpocket"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.3"
+  }
+}
