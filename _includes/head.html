@@ -12,12 +12,13 @@
     <link rel="shortcut icon" href="{{ site.url }}{{ site.favicon }}">
     <meta name="description" content="{{ site.description }}">
     <script src="{{ "/bower_components/platform/platform.js" | prepend: site.baseurl }}"></script>
-    <link rel="import" href="{{ "/bower_components/polymer/polymer.html" | prepend: site.baseurl }}">
+    <!-- <link rel="import" href="{{ "/bower_components/polymer/polymer.html" | prepend: site.baseurl }}"> -->
     {% if page.layout == 'holy-grail' %}
-    <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/bower_components/jquery.countdown/dist/jquery.countdown.min.js" | prepend: site.baseurl }}"></script>
+    <!-- <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/jquery.countdown/dist/jquery.countdown.min.js" | prepend: site.baseurl }}"></script> -->
     <link rel="import" href="{{ "/bower_components/core-header-panel/core-header-panel.html" | prepend: site.baseurl }}">
     <link rel="import" href="{{ "/bower_components/core-toolbar/core-toolbar.html" | prepend: site.baseurl }}">
+    <link rel="import" href="{{ "/bower_components/paper-tabs/paper-tabs.html" | prepend: site.baseurl }}">
     <style type="text/css">
 		html,body {
     		height: 100%;
@@ -32,6 +33,14 @@
 			background: rgba(250,230,20,1);
 			color: white;
 		}
+          #tabs {
+            width: 100%;
+            margin: 0;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          }
   </style>
   {% endif %}
     <link rel="import" href="{{ "/font-artinpocket/artinpocket.html" | prepend: site.baseurl }}">
