@@ -10,3 +10,7 @@ github_username:  freecates
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Custom vars
+icon:		/assets/images/logo-artinpocket-digitalartbarcelona.png
+favicon:	/assets/images/favicon.ico
