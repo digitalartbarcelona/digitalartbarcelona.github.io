@@ -1,0 +1,59 @@
+- name:	Ryans Pub
+  address:	'Carrer Ample, 28, 08002 Barcelona'
+  url:	http://www.ryans.es/ryans-irish-pubs-overview/
+  twitter:	RyansPubs
+  facebook:	https://www.facebook.com/ryans2004
+  screening:	23.00h to 01.00h
+  latitude:	41.3804463
+  longitude:	2.1800922
+  logo:	ryans-pub-place-digital-art-barcelona.png
+
+- name:	Ryans Pub
+  address:	'Carrer dels Escudellers, 24, 08002 Barcelona'
+  url:	http://www.ryans.es/ryans-irish-pubs-overview/
+  twitter:	RyansPubs
+  facebook:	https://www.facebook.com/ryans2004
+  screening:	23.00h to 01.00h
+  latitude:	41.3799331
+  longitude:	2.1766979
+  logo:	ryans-pub-place-digital-art-barcelona.png
+
+- name:	Ryans Pub
+  address:	"Carrer del Torrent de l'Olla, 39, 08012 Barcelona"
+  url:	http://www.ryans.es/ryans-irish-pubs-overview/
+  twitter:	RyansPubs
+  facebook:	https://www.facebook.com/ryans2004
+  screening:	23.00h to 01.00h
+  latitude:	41.3999468
+  longitude:	2.159661
+  logo:	ryans-pub-place-digital-art-barcelona.png
+
+- name:	Room Mate Hotels – Pau Barcelona 
+  address:	"Carrer de Fontanella, 7, 08010 Barcelona"
+  url:
+  twitter:	RoomMateHotels
+  facebook:	https://www.facebook.com/RoomMateHotels
+  screening:	Hall hotel 24h dia
+  latitude:	41.3874734
+  longitude:	2.1719213
+  logo:	room-mate-place-digital-art-barcelona.jpg
+
+- name:	Hotel Espanya 
+  address:	"Carrer de Sant Pau, 9 08001 Barcelona"
+  url:	http://www.hotelespanya.com/ca/home-1/
+  twitter:	hotelespanya
+  facebook:	https://www.facebook.com/hotelespanya
+  screening:	23.00h to 01.00h
+  latitude:	41.3799325
+  longitude:	2.1727817
+  logo:	hotel-espanya-place-digital-art-barcelona.jpg
+
+- name:	AlAire Terraza Bar 
+  address:	"Carrer de Sant Pau, 11 08001 Barcelona"
+  url:	http://www.hotelespanya.com/ca/alaire-ramblas-terrace/
+  twitter:	hotelespanya
+  facebook:	https://www.facebook.com/hotelespanya
+  screening:	23.00h to 01.00h
+  latitude:	41.3798454
+  longitude:	2.1726976
+  logo:	alaire-ramblas-terrace-place-digital-art-barcelona.jpg
