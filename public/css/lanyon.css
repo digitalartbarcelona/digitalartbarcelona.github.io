@@ -36,13 +36,6 @@
  */
 
 /* Prevent scroll on narrow devices */
-html {
-    background: url(/public/img/baner-barcelona-digital-art.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- }
 html,
 body {
   overflow-x: hidden;
@@ -50,10 +43,6 @@ body {
 
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-}
-
-body.mur-diari {
-  background: rgba(255,255,255,0.5);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -213,8 +202,12 @@ div.item p input.item_Quantity {
  * Super small header above the content for site name and short description.
  */
 
- body.mur-diari .masthead {
-    background:#ffffff;
+ .masthead {
+    background: url(/public/img/baner-barcelona-digital-art.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
  }
 
 .masthead {
