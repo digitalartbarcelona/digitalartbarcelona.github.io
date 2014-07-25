@@ -1,28 +1,33 @@
 ---
-layout: holy-grail
+layout: default
+title: Home
+subtitle: 1a mostra simultània d'art digital / 1st simultaneous digital art show
+subsubtitle: 28/7 - 10/08
+subsubsubtitle: BCN 2014
+category: mur-diari
 ---
 
-<h3 id="getting-started"></h3>
-<h1>{{site.title}}</h1>
-<h2>{{site.description}}</h2>
-<hr/>
-<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-<script type="text/javascript">
-  $("#getting-started")
-  .countdown("2014/07/29", function(event) {
-  $(this).html(event.strftime('%D days %H:%M:%S'));
-  });
-</script>
+<!-- {% include shop.html %} -->
 
+<div class="home-title">
+  <h1 class="text-center">{{ page.subtitle }}</h1>
+  <h2 class="text-center">{{ page.subsubtitle }}</h2>
+  <h3 class="text-center">{{ page.subsubsubtitle }}</h3>
+</div>
 
+<div class="posts">
+  {% for post in site.categories['general'] reversed %}
+  <div class="post">
 
-  <!-- <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    {{ post.excerpt }}    
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+  <h2 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    
+    </div>
+  {% endfor %}
+</div>
+

@@ -1,19 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca">
 
   {% include head.html %}
 
-    <body>
+  <body class="theme-base-0a {% if page.category == 'mur' %}mur{% endif %}{% if page.category == 'mur-diari' or page.title == 'Aportacions' %}mur-diari{% endif %}{% if page.class == 'artwork' %}artwork{% endif %}">
 
-    {% include header.html %}
+    {% include sidebar.html %}
 
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+          <h3 class="masthead-title">
+            <a href="/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container {% if page.title == 'Home' %}donatius{% endif %} content">
+        {{ content }}
       </div>
     </div>
 
-    {% include footer.html %}
+    <footer class="related">
+      <div class="container">
+        <p>{{ site.description }}</p>
+        <p class="text-right">
+          <a href="https://twitter.com/Artinpocket" title="Twitter" rel="external"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/pages/Artinpocket/617130554970586" title="Facebook" rel="external"><i class="fa fa-facebook"></i></a> <a href="http://www.pinterest.com/artinpocket/" title="Pinterest" rel="external"><i class="fa fa-pinterest"></i></a> <a href="http://www.linkedin.com/company/artinpocket" title="Linkedin" rel="external"><i class="fa fa-linkedin"></i></a> <a href="mailto:info@artinpocket.cat" title="Correu-e" rel="external"><i class="fa fa-envelope"></i></a></span>
+        </p>
+        <div class="row">
 
-    </body>
+          <h2>Organitza / Organizer</h2>
+      
+          <div class="col-sm-6 col-lg-6">
+            <img src="/public/img/{{ site.organitza.artinpocket.logo }}" alt="{{ site.organitza.artinpocket.description }}" title="{{ site.organitza.artinpocket.description }}">
+          </div>
+      
+          <div class="col-sm-6 col-lg-6">
+            <img src="/public/img/{{ site.organitza.convent-sant-agusti.logo }}" alt="{{ site.organitza.convent-sant-agusti.description }}" title="{{ site.organitza.convent-sant-agusti.description }}">
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <h2>Patrocina / Sponsor</h2>
+      
+          <div class="col-sm-4 col-lg-4">
+            <img src="/public/img/{{ site.patrocina.blanz.logo }}" alt="{{ site.patrocina.blanz.description }}" title="{{ site.patrocina.blanz.description }}">
+          </div>
+      
+          <div class="col-sm-4 col-lg-4">
+            <img src="/public/img/{{ site.patrocina.idodi.logo }}" alt="{{ site.patrocina.idodi.description }}" title="{{ site.patrocina.idodi.description }}">
+          </div>
+      
+          <div class="col-sm-4 col-lg-4">
+            <img src="/public/img/{{ site.patrocina.invysible.logo }}" alt="{{ site.patrocina.invysible.description }}" title="{{ site.patrocina.invsysible.description }}">
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <h2>Col·labora / Partner</h2>
+      
+          <div class="col-sm-3 col-lg-3">
+            <img src="/public/img/{{ site.colabora.tona.logo }}" alt="{{ site.colabora.tona.description }}" title="{{ site.colabora.tona.description }}">
+          </div>
+      
+          <div class="col-sm-3 col-lg-3">
+            <img src="/public/img/{{ site.colabora.moobeat.logo }}" alt="{{ site.colabora.moobeat.description }}" title="{{ site.colabora.moobeat.description }}">
+          </div>
+      
+          <div class="col-sm-3 col-lg-3">
+            <img src="/public/img/{{ site.colabora.oxygen.logo }}" alt="{{ site.colabora.oxygen.description }}" title="{{ site.colabora.oxygen.description }}">
+          </div>
+      
+          <div class="col-sm-3 col-lg-3">
+            <img src="/public/img/{{ site.colabora.catalunya-empren.logo }}" alt="{{ site.colabora.catalunya-empren.description }}" title="{{ site.colabora.moobeat.description }}">
+          </div>
+
+        </div>
+      </div>
+    </footer>
+    {% include footer-css-js.html %}
+  </body>
 </html>

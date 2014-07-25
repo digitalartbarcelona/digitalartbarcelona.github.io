@@ -1,16 +1,80 @@
-# Site settings
-title: "Digital Art Barcelona"
-email: info@digitalartbarcelona.com
-description: "The 1st exhibition of digital art in Barcelona is presented as a simultaneous exhibition in spaces and buildings of the city. The show was created with the aim of offering to the public the possibility of discovering and experimenting with digital art in environments, a priori, outside the traditional art exhibition circuit. Leisure, culture and heritage will merge to offer an unprecedented experience in Barcelona about digital art."
-baseurl: ""
-url: "http://www.digitalartbarcelona.com"
-twitter_username: artinpocket
-github_username:  freecates
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+
+excerpt_separator: <!--more-->
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Barcelona Digital Art
+tagline:          1st simultaneous digital art show in Barcelona 
+description:      "The 1st exhibition of digital art in Barcelona is presented as a simultaneous exhibition in spaces and buildings of the city. The show was created with the aim of offering to the public the possibility of discovering and experimenting with digital art in environments, a priori, outside the traditional art exhibition circuit. Leisure, culture and heritage will merge to offer an unprecedented experience in Barcelona about digital art."
+url:              http://www.digitalartbarcelona.com
+
+author:
+  name:           'Ramon Gil'
+  url:            https://twitter.com/freecates
+
+paginate:         8
+paginate_path:    "blog/page:num"
 
 # Custom vars
-icon:		/assets/images/logo-artinpocket-digitalartbarcelona.png
-favicon:	/assets/images/favicon.ico
+version:          1.0.0
+
+full-shop:
+  repo:           http://www.inpocketart.com/botiga/
+
+twitter-sentence: "| Enjoy #BarcelonaDigitalArt, #BDA"
+
+organitza:
+  artinpocket:
+    description:  Artinpocket - organitzadors de barcelona digital art
+    logo: "artinpocket-organitzadors-barcelona-digital-art-footer.jpg"
+  convent-sant-agusti:
+    description:  Convent de Sant Agustí - organitzadors de barcelona digital art
+    logo: "convent-sant-agusti-organitzadors-barcelona-digital-art-footer.jpg"
+
+patrocina:
+  blanz:
+    description:  BlanZ - patrocinadors de barcelona digital art
+    logo: "blanz-organitzadors-barcelona-digital-art-footer.jpg"
+  idodi:
+    description:  IDODI - patrocinadors de barcelona digital art
+    logo: "idodi-organitzadors-barcelona-digital-art-footer.jpg"
+  invysible:
+    description:  invysible - patrocinadors de barcelona digital art
+    logo: "invysible-organitzadors-barcelona-digital-art-footer.jpg"
+
+colabora:
+  tona:
+    description:  Tona Codina - col·laboradors de barcelona digital art
+    logo: "tona-codina-organitzadors-barcelona-digital-art-footer.jpg"
+  moobeat:
+    description:  Moobeat - col·laboradors de barcelona digital art
+    logo: "moobeat-organitzadors-barcelona-digital-art-footer.jpg"
+  oxygen:
+    description:  Oxygen - col·laboradors de barcelona digital art
+    logo: "oxygen-organitzadors-barcelona-digital-art-footer.jpg"
+  catalunya-empren:
+    description:  Catalunya Emprèn - col·laboradors de barcelona digital art
+    logo: "catalunya-empren-organitzadors-barcelona-digital-art-footer.jpg"
+
+assets: 
+  baseurl: /public/
+
+# Prose
+prose:
+  rooturl: ''
+  siteurl: 'http://www.digitalartbarcelona.com/'
+  media: 'public/img'
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+          value: ""
+

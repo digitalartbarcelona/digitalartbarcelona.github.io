@@ -1,7 +1,16 @@
 ---
-layout: page-simple
-title: About
-permalink: /about/
+layout: page
+title: La mostra / The shwow
+published: true
 ---
 
-The 1st exhibition of digital art in Barcelona is presented as a simultaneous exhibition in spaces and buildings of the city. The show was created with the aim of offering to the public the possibility of discovering and experimenting with digital art in environments, a priori, outside the traditional art exhibition circuit. Leisure, culture and heritage will merge to offer an unprecedented experience in Barcelona about digital art.
+<figure class="text-center">
+	<img src="/public/img/1-st-simultaneous-digital-art-show-flyer.jpg" alt="Barcelona Digital Art | #BarcelonaDigitalArt #BDA" title="Barcelona Digital Art | #BarcelonaDigitalArt #BDA">
+	<figcaption>
+		<p><small>Barcelona Digital Art | #BarcelonaDigitalArt #BDA</small></p>
+	</figcaption>
+</figure>
+
+**La mostra simultània d'art digital a Barcelona es presenta com una exposició simultània en espais i edificis de referència de la ciutat. La mostra neix amb l'objectiu d'oferir al públic la possibilitat de descobrir i experimentar amb l'art digital en entorns a priori fora del circuit expositiu tradicional d'art. Oci, cultura i patrimoni es fusionen per oferir una experiència entorn  l'Art digital sense precedents a Barcelona. Amb la finalitat de divulgar la disciplina de l'art digital; projectar i promocionar el treball de joves artistes i obrir nous espais i formats expositius a Barcelona Artinpocket, el Convent de Sant Agustí,  amb la col·laboració de IDODI i BlaNZ, han reunit més de 20 creadors d'art digital per crear una mostra simultània a diferents locals de Barcelona.**
+
+*The simultaneous showing of digital art in Barcelona is presented as a simultaneous exhibition at spaces and buildings relevant of the city. The showing was created to offer the public the opportunity to explore and experiment with digital art environments that usually are outside the traditional art exhibition circuit. Leisure, culture and heritage are fused to provide an experience around digital Art unprecedented in Barcelona. They had gathered over 20 of digital art creators to produce a simultaneous showing in different places of Barcelona in order to spread the discipline of digital art; show and promote the work of young artists and open new spaces and exhibition in Barcelona Artinpocket, the Convent of St. Augustine, with the collaboration of IDODI and BlanNZ.*

@@ -1,0 +1,18 @@
+---
+---
+CACHE MANIFEST
+
+# rev {{ site.time }}
+
+CACHE:
+{{ site.url }}{{ site.assets.baseurl }}css/lanyon.min.css
+{{ site.url }}{{ site.assets.baseurl }}css/poole.min.css
+{{ site.url }}{{ site.assets.baseurl }}css/syntax.min.css
+
+{% for page in site.pages %}{% if page.url != '/manifest.appcache' %}{{ site.url }}{{ page.url }}{% endif %}
+{% endfor %}
+
+NETWORK:
+*
+http://*
+https://*
