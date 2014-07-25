@@ -57,3 +57,23 @@
   latitude:	41.3798454
   longitude:	2.1726976
   logo:	alaire-ramblas-terrace-place-digital-art-barcelona.jpg
+
+- name:	Convet Sant Agustí 
+  address:	"Carrer del Comerç, 36 08003 Barcelona"
+  url:	http://conventagusti.com/
+  twitter:	ConventAgusti
+  facebook:	https://www.facebook.com/ConventAgusti
+  screening:	"28, 29 i 30 de juliol de 21.00 a 21.40h"
+  latitude:	41.3877519
+  longitude:	2.181529
+  logo:	convent-sant-agusti-place-barcelona-digital-art.jpg
+
+- name:	In.vysible 
+  address:	"Carrer del Portal Nou, 48 08003 Barcelona"
+  url:	http://www.invysible.com/
+  twitter:	in_vysible
+  facebook:	https://www.facebook.com/in.vysible
+  screening:	
+  latitude:	41.3893575
+  longitude:	2.1808913
+  logo:	invysible-place-barcelona-digital-art.jpg
