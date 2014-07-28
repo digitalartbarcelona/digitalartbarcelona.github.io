@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Ryans Pub Carrer Ample
+title: Convent de Sant Agustí
 category: place
 share: true
 ---
 
 <figure class="text-center">
-{% for place in site.data.places limit:1 %}
+{% for place in site.data.places limit:1 offset:6 %}
 	<img src="/public/img/{{ place.logo }}" alt="{{ place.name}} - exhibidors de barcelona digital art" title="{{ place.name }} - exhibidors de barcelona digital art">
 	<figcaption>
 		<p><small><i class="fa fa-external-link"></i> <a href="{{ place.url }}" title="{{ place.name }}">{{ place.name }}</a><br/>

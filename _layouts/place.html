@@ -8,9 +8,9 @@ layout: default
       {% for place in site.data.places %}
       <google-map-marker latitude="{{ place.latitude }}" longitude="{{ place.longitude }}"
                          title="{{ place.name }}" draggable="false" icon="/public/favicon.ico">
-           <p class="text-center"><img src="/public/img/{{ place.logo }}"></p>
+           <p class="text-center"><a href="{{ place.url-in }}"><img src="/public/img/{{ place.logo }}"></a></p>
            <p>
-	      <strong>{{ place.name }}</strong><br/>
+	      <strong><a href="{{ place.url-in }}">{{ place.name }}</a></strong><br/>
 	      <strong>Direcció</strong> / <em>Address</em>: {{ place.address }}<br/>
 	      <strong>Horari projecció</strong> / <em>Screening timetable</em>: {{ place.screening }}<br/>
 	    </p>

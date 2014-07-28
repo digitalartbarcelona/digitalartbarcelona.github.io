@@ -8,6 +8,7 @@
   longitude:	2.1800922
   logo:	ryans-pub-place-digital-art-barcelona.png
   id:	1
+  url-in: /place/2014/07/23/ryans-pub-carrer-ample/
 
 - name:	Ryans Pub
   address:	'Carrer dels Escudellers, 24, 08002 Barcelona'
@@ -19,6 +20,7 @@
   longitude:	2.1766979
   logo:	ryans-pub-place-digital-art-barcelona.png
   id:	2
+  url-in: /place/2014/07/23/ryans-pub-carrer-escudellers/
 
 - name:	Ryans Pub
   address:	"Carrer del Torrent de l'Olla, 39, 08012 Barcelona"
@@ -30,6 +32,7 @@
   longitude:	2.159661
   logo:	ryans-pub-place-digital-art-barcelona.png
   id:	3
+  url-in: /place/2014/07/23/ryans-pub-carrer-torrent-de-l-olla/
 
 - name:	Room Mate Hotels – Pau Barcelona 
   address:	"Carrer de Fontanella, 7, 08010 Barcelona"
@@ -41,6 +44,8 @@
   longitude:	2.1719213
   logo:	room-mate-place-digital-art-barcelona.jpg
   id:	4
+  url-in: /place/2014/07/23/room-mate-hotels/
+
 
 - name:	Hotel Espanya 
   address:	"Carrer de Sant Pau, 9 08001 Barcelona"
@@ -52,6 +57,7 @@
   longitude:	2.1727817
   logo:	hotel-espanya-place-digital-art-barcelona.jpg
   id:	5
+  url-in: /place/2014/07/23/hotel-espanya/
 
 - name:	AlAire Terraza Bar 
   address:	"Carrer de Sant Pau, 11 08001 Barcelona"
@@ -63,6 +69,7 @@
   longitude:	2.1726976
   logo:	alaire-ramblas-terrace-place-digital-art-barcelona.jpg
   id:	6
+  url-in: /place/2014/07/23/alaire-terrace-bar/
 
 - name:	Convet Sant Agustí 
   address:	"Carrer del Comerç, 36 08003 Barcelona"
@@ -74,6 +81,7 @@
   longitude:	2.181529
   logo:	convent-sant-agusti-place-barcelona-digital-art.jpg
   id:	7
+  url-in: /place/2014/07/23/convent-sant-agusti/
 
 - name:	In.vysible 
   address:	"Carrer del Portal Nou, 48 08003 Barcelona"
@@ -85,3 +93,4 @@
   longitude:	2.1808913
   logo:	invysible-place-barcelona-digital-art.jpg
   id:	8
+  url-in: /place/2014/07/23/invysible/
