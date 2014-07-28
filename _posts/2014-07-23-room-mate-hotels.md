@@ -6,8 +6,8 @@ share: true
 ---
 
 <figure class="text-center">
-{% for place in site.data.places limit:1 offset:2 %}
-	<img src="/public/img/{{ place.logo }}" alt="{{ place.name}} - exhibidors de barcelona digital art" title="{{ place.name }} - exhibidors de barcelona digital art">
+{% for place in site.data.places limit:1 offset:3 %}
+	<a href="{{ place.url }}" title="{{ place.name }}"><img src="/public/img/{{ place.logo }}" alt="{{ place.name}} - exhibidors de barcelona digital art" title="{{ place.name }} - exhibidors de barcelona digital art"></a>
 	<figcaption>
 		<p><small><i class="fa fa-external-link"></i> <a href="{{ place.url }}" title="{{ place.name }}">{{ place.name }}</a><br/>
 		<strong>Direcció</strong> / <em>Address</em>: {{ place.address }}<br/>
