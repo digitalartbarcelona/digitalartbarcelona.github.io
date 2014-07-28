@@ -7,6 +7,7 @@
   latitude:	41.3804463
   longitude:	2.1800922
   logo:	ryans-pub-place-digital-art-barcelona.png
+  id:	1
 
 - name:	Ryans Pub
   address:	'Carrer dels Escudellers, 24, 08002 Barcelona'
@@ -17,6 +18,7 @@
   latitude:	41.3799331
   longitude:	2.1766979
   logo:	ryans-pub-place-digital-art-barcelona.png
+  id:	2
 
 - name:	Ryans Pub
   address:	"Carrer del Torrent de l'Olla, 39, 08012 Barcelona"
@@ -27,6 +29,7 @@
   latitude:	41.3999468
   longitude:	2.159661
   logo:	ryans-pub-place-digital-art-barcelona.png
+  id:	3
 
 - name:	Room Mate Hotels – Pau Barcelona 
   address:	"Carrer de Fontanella, 7, 08010 Barcelona"
@@ -37,6 +40,7 @@
   latitude:	41.3874734
   longitude:	2.1719213
   logo:	room-mate-place-digital-art-barcelona.jpg
+  id:	4
 
 - name:	Hotel Espanya 
   address:	"Carrer de Sant Pau, 9 08001 Barcelona"
@@ -47,6 +51,7 @@
   latitude:	41.3799325
   longitude:	2.1727817
   logo:	hotel-espanya-place-digital-art-barcelona.jpg
+  id:	5
 
 - name:	AlAire Terraza Bar 
   address:	"Carrer de Sant Pau, 11 08001 Barcelona"
@@ -57,6 +62,7 @@
   latitude:	41.3798454
   longitude:	2.1726976
   logo:	alaire-ramblas-terrace-place-digital-art-barcelona.jpg
+  id:	6
 
 - name:	Convet Sant Agustí 
   address:	"Carrer del Comerç, 36 08003 Barcelona"
@@ -67,6 +73,7 @@
   latitude:	41.3877519
   longitude:	2.181529
   logo:	convent-sant-agusti-place-barcelona-digital-art.jpg
+  id:	7
 
 - name:	In.vysible 
   address:	"Carrer del Portal Nou, 48 08003 Barcelona"
@@ -77,3 +84,4 @@
   latitude:	41.3893575
   longitude:	2.1808913
   logo:	invysible-place-barcelona-digital-art.jpg
+  id:	8

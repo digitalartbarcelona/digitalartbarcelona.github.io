@@ -62,6 +62,20 @@ colabora:
     description:  Catalunya Emprèn - col·laboradors de barcelona digital art
     logo: "catalunya-empren-organitzadors-barcelona-digital-art-footer.jpg"
 
+participa:
+  ryans:
+    description: Ryans Irish Pub - participants de barcelona digital art
+    logo: ryans-pub-footer-digital-art-barcelona.jpg
+  espanya:
+    description: Hotel Espanya Rambles - participants de barcelona digital art
+    logo: hotel-espanya-footer-digital-art-barcelona.jpg
+  alaire:
+    description: Alaire Rambles Terrace - participants de barcelona digital art
+    logo: alaire-ramblas-terrace-footer-digital-art-barcelona.jpg
+  roommate:
+    description: Room Mate - participants de barcelona digital art
+    logo: room-mate-footer-digital-art-barcelona.jpg
+
 assets: 
   baseurl: /public/
 
