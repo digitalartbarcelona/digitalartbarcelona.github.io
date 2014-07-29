@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="post">
+{% if page.class == 'artwork' %}<div itemscope itemtype="http://schema.org/IndividualProduct" itemid="#product" class="post"><link itemprop="additionalType" href="http://www.productontology.org/id/Work_of_art" />{% else %}<div class="post">{% endif %}
   {% if page.class != 'artwork' %}
     <h1 class="post-title">{{ page.title }} {% if page.category == 'place' %}<span class="gu">- <a href="/places-of-exhibition/">place</a></span>{% endif %} {% if page.category == 'patrocinadors' %}<span class="gu">- <a href="/patrocinadors/">qui? / who?</a></span>{% endif %}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
@@ -14,14 +14,20 @@ layout: default
   <hr />
   <p class="text-center"><small><i class="fa fa-heart"></i> Enjoy <a href="https://twitter.com/search?q=%23barcelonadigitalart&src=typd&f=realtime">#BarcelonaDigitalArt</a></small></p>
   <hr />
+  {% if page.class == 'artwork' %}
+  <span itemprop="description">
   {{ content }}
+  </span>
+  {% else %}
+  {{ content }}
+  {% endif %}
   <hr />
   <p class="text-center"><small><i class="fa fa-heart"></i> Enjoy <a href="https://twitter.com/search?q=%23barcelonadigitalart&src=typd&f=realtime">#BarcelonaDigitalArt</a></small></p>
   <hr />
   {% endif %}
 
   {% if page.class == 'artwork' %}
-    <h1 class="post-title">{{ page.title }} <span class="gu">- <a href="/artworks/">Peces / Artworks</a></span></h1>
+    <h1 class="post-title"><span itemprop="name">{{ page.title }}</span> <span class="gu">- <a href="/artworks/">Peces / Artworks</a></span></h1>
   {% endif %}
   {% if page.share %}<div class="social-share">
           <ul class="socialcount socialcount-small inline-list">
