@@ -12,7 +12,7 @@ layout: default
            <p>
 	      <strong><a href="{{ place.url-in }}">{{ place.name }}</a></strong><br/>
 	      <strong>Direcció</strong> / <em>Address</em>: {{ place.address }}<br/>
-	      <strong>Horari projecció</strong> / <em>Screening timetable</em>: {{ place.screening }}<br/>
+	      <strong>Horari projecció</strong> / <em>Screening timetable</em>: <strong>{{ place.screening-ca }}</strong> / <em>{{ place.screening-en }}</em><br/>
 	    </p>
       </google-map-marker>
       {% endfor %}
