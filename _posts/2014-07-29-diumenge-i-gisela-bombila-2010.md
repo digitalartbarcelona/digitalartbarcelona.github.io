@@ -4,7 +4,7 @@ title: "Diumenge I. Gisela Bombilà, 2010"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

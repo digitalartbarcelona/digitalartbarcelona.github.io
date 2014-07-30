@@ -4,7 +4,7 @@ title: "DISFRAZ DE TIGRE. Julián Rodríguez Aldana, 2010 – 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

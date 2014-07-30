@@ -4,7 +4,7 @@ title: "Silueta urbana IV. Gerard Martínez Costa, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

@@ -4,7 +4,7 @@ title: "Words. Alberto Espinosa, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

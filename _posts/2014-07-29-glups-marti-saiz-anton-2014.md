@@ -4,7 +4,7 @@ title: "Glups. Martí Sáiz Anton, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

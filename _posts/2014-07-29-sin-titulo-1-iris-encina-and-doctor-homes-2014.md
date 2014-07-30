@@ -4,7 +4,7 @@ title: "Sin título 1. Iris Encina and Doctor Homes, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

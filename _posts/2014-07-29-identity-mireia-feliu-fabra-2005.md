@@ -4,7 +4,7 @@ title: "IDENTITY. Mireia Feliu i Fabra, 2005"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

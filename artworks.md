@@ -5,7 +5,7 @@ category: mur-diari
 ---
 
 <div class="posts clearfix">
-  {% for post in site.categories['general'] %}
+  {% for post in site.categories['artwork'] %}
   <div class="post">
 
     {{ post.excerpt }}    

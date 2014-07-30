@@ -4,7 +4,7 @@ title: "L3S M4T3M4T1QU3S D3 L4 V1DA. Gràfica Sònika, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

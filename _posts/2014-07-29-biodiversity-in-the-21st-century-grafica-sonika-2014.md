@@ -4,7 +4,7 @@ title: "Biodiversity in the 21st century. Gràfica Sònica, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

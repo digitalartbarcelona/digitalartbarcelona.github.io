@@ -4,7 +4,7 @@ title: "Anomalia 01. Jaume Marco, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

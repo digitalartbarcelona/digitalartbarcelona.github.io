@@ -4,7 +4,7 @@ title: "Too much. Martí Sáiz Anton, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

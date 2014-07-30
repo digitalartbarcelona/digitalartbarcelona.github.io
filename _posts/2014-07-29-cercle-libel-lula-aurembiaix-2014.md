@@ -4,7 +4,7 @@ title: "Cercle Libèl·lula I. Aurembiaix, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

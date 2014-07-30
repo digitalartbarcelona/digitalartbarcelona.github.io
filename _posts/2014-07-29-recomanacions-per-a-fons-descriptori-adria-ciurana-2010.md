@@ -4,7 +4,7 @@ title: "Recomanacions per a fons d’escriptori. Adrià Ciurana, 2010"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

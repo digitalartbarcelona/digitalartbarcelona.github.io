@@ -4,7 +4,7 @@ title: "El Sombrero Caracol. Inma Sáenz, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

@@ -4,7 +4,7 @@ title: "La Reina Roja I. Carolina Pingarrón, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

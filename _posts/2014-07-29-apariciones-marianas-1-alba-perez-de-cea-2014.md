@@ -4,7 +4,7 @@ title: "Apariciones Marianas 1. Alba Pérez de Cea, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

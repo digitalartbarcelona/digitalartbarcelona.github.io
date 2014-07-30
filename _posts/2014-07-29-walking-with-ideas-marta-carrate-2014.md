@@ -4,7 +4,7 @@ title: "Walking With Ideas, Marta Carreté, 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

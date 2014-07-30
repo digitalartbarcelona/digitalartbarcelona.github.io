@@ -4,7 +4,7 @@ title: "TAMAÑO NATURAL. Julián Rodríguez Aldana, 2012 – 2014"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---

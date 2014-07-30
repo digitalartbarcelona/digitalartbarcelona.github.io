@@ -4,7 +4,7 @@ title: "Segon estudi per un rosari animat II. Adrià Ciurana, 2011"
 share: true
 class: artwork
 categories:
-  - general
+  - artwork
   - home
 published: true
 ---
