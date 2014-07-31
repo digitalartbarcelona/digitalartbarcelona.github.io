@@ -3,8 +3,8 @@
   url:	http://www.ryans.es/ryans-irish-pubs-overview/
   twitter:	RyansPubs
   facebook:	https://www.facebook.com/ryans2004
-  screening-ca: "De les 23.00 a la 01.00h"
-  screening-en: "From 23.00h to 01.00h"
+  screening-ca: "Del 28 de Juliol al 10 d'agost. De les 23.00 a la 01.00h"
+  screening-en: "From 28 July to 10 August. From 23.00h to 01.00h"
   latitude:	41.3804463
   longitude:	2.1800922
   logo:	ryans-pub-place-digital-art-barcelona.png
@@ -16,8 +16,8 @@
   url:	http://www.ryans.es/ryans-irish-pubs-overview/
   twitter:	RyansPubs
   facebook:	https://www.facebook.com/ryans2004
-  screening-ca: "De les 23.00 a la 01.00h"
-  screening-en: "From 23.00h to 01.00h"
+  screening-ca: "Del 28 de Juliol al 10 d'agost. De les 23.00 a la 01.00h"
+  screening-en: "From 28 July to 10 August. From 23.00h to 01.00h"
   latitude:	41.3799331
   longitude:	2.1766979
   logo:	ryans-pub-place-digital-art-barcelona.png
@@ -29,8 +29,8 @@
   url:	http://www.ryans.es/ryans-irish-pubs-overview/
   twitter:	RyansPubs
   facebook:	https://www.facebook.com/ryans2004
-  screening-ca: "De les 23.00 a la 01.00h"
-  screening-en: "From 23.00h to 01.00h"
+  screening-ca: "Del 28 de Juliol al 10 d'agost. De les 23.00 a la 01.00h"
+  screening-en: "From 28 July to 10 August. From 23.00h to 01.00h"
   latitude:	41.3999468
   longitude:	2.159661
   logo:	ryans-pub-place-digital-art-barcelona.png
@@ -42,8 +42,8 @@
   url: http://pau.room-matehotels.com/
   twitter:	RoomMateHotels
   facebook:	https://www.facebook.com/RoomMateHotels
-  screening-ca:	"Hall hotel 24h al dia"
-  screening-en:	"Hall hotel 24h a day" 
+  screening-ca:	"Del 28 de Juliol al 10 d'agost. Hall hotel 24h al dia"
+  screening-en:	"From 28 July to 10 August. Hall hotel 24h a day"
   latitude:	41.3874734
   longitude:	2.1719213
   logo:	room-mate-place-digital-art-barcelona.jpg
@@ -56,8 +56,8 @@
   url:	http://www.hotelespanya.com/ca/home-1/
   twitter:	hotelespanya
   facebook:	https://www.facebook.com/hotelespanya
-  screening-ca: "De les 23.00 a la 01.00h"
-  screening-en: "From 23.00h to 01.00h"
+  screening-ca: "Del 28 de Juliol al 10 d'agost. De les 23.00 a la 01.00h"
+  screening-en: "From 28 July to 10 August. From 23.00h to 01.00h"
   latitude:	41.3799325
   longitude:	2.1727817
   logo:	hotel-espanya-place-digital-art-barcelona.jpg
@@ -69,15 +69,15 @@
   url:	http://www.hotelespanya.com/ca/alaire-ramblas-terrace/
   twitter:	hotelespanya
   facebook:	https://www.facebook.com/hotelespanya
-  screening-ca: "De les 23.00 a la 01.00h"
-  screening-en: "From 23.00h to 01.00h"
+  screening-ca: "Del 28 de Juliol al 10 d'agost. De les 23.00 a la 01.00h"
+  screening-en: "From 28 July to 10 August. From 23.00h to 01.00h"
   latitude:	41.3798454
   longitude:	2.1726976
   logo:	alaire-ramblas-terrace-place-digital-art-barcelona.jpg
   id:	6
   url-in: /place/2014/07/23/alaire-terrace-bar/
 
-- name:	Convet Sant Agustí 
+- name:	Convent Sant Agustí 
   address:	"Carrer del Comerç, 36 08003 Barcelona"
   url:	http://conventagusti.com/
   twitter:	ConventAgusti
