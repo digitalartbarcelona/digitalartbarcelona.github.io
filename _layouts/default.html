@@ -7,8 +7,8 @@ layout: compress
 
   {% include head.html %}
 
-  <body class="theme-base-0a {% if page.category == 'mur' %}mur{% endif %}{% if page.category == 'mur-diari' or page.title == 'Aportacions' %}mur-diari{% endif %}{% if page.class == 'artwork' %}artwork{% endif %}">
-
+  <body unresolved class="theme-base-0a {% if page.category == 'mur' %}mur{% endif %}{% if page.category == 'mur-diari' or page.title == 'Aportacions' %}mur-diari{% endif %}{% if page.class == 'artwork' %}artwork{% endif %}">
+  <digital-default></digital-default>
     {% include sidebar.html %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
