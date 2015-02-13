@@ -4,6 +4,24 @@ layout: default
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
+  <div class="posts">
+  {% for place in site.data.places reversed %}
+    <div class="post">
+    <figure class="text-center">
+      <a href="{{ place.url }}" title="{{ place.name }}"><img src="/public/img/{{ place.logo }}" alt="{{ place.name}} - exhibidors de barcelona digital art" title="{{ place.name }} - exhibidors de barcelona digital art"></a>
+      <figcaption>
+        <p><small><a href="{{ place.url }}" title="{{ place.name }}">{{ place.name }}</a> <i class="fa fa-external-link"></i> | <a href="https://twitter.com/{{ place.twitter }}" title="@{{ place.twitter }}"><i class="fa fa-twitter"></i></a> | <a href="{{ place.facebook }}" title="{{ place.name }} a Facebook"><i class="fa fa-facebook"></i></a></small></p>
+      </figcaption>
+    </figure>
+    <h2 class="post-title">
+      <a href="{{ place.url-in }}">
+        {{ place.name }}
+      </a>
+    </h2>
+    </div>
+  {% endfor %}
+  </div>
+<br style="clear:both" />
   <google-map latitude="41.3804463" longitude="2.1800922" disableDefaultUI fitToMarkers zoom="15">
       {% for place in site.data.places %}
       <google-map-marker latitude="{{ place.latitude }}" longitude="{{ place.longitude }}"

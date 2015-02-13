@@ -1,17 +1,13 @@
 ---
 layout: default
 title: Home
-subtitle: 1a mostra simultània d'art digital / 1st simultaneous digital art show
-subsubtitle: 28/7 - 10/08
-subsubsubtitle: BCN 2014
+subtitle: 2a mostra simultània d'art digital / 2nd simultaneous digital art show
+subsubtitle: 01/7 - 15/07
+subsubsubtitle: BCN 2015
 category: mur-diari
 ---
 
-<div class="home-title">
-  <h1 class="text-center">{{ page.subtitle }}</h1>
-  <h2 class="text-center">{{ page.subsubtitle }}</h2>
-  <h3 class="text-center">{{ page.subsubsubtitle }}</h3>
-</div>
+<div class="countdown text-center"></div>
 
 <div class="posts">
   {% for post in site.categories['artwork'] reversed %}

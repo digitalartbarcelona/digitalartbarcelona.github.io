@@ -7,7 +7,7 @@ layout: compress
 
   {% include head.html %}
 
-  <body unresolved class="theme-base-0a {% if page.category == 'mur' %}mur{% endif %}{% if page.category == 'mur-diari' or page.title == 'Aportacions' %}mur-diari{% endif %}{% if page.class == 'artwork' %}artwork{% endif %}">
+  <body unresolved class="theme-base-0a {% if page.category == 'mur' %}mur{% endif %}{% if page.category == 'mur-diari' or page.title == 'Aportacions' %}mur-diari{% endif %}{% if page.class == 'artwork' %}artwork{% endif %} {% if page.title == 'Home' %}home{% endif %}">
   <digital-default></digital-default>
     {% include sidebar.html %}
 
@@ -24,6 +24,14 @@ layout: compress
           </h3>
         </div>
       </div>
+
+      {% if page.title == 'Home' %}
+      <div class="home-title">
+        <h1 class="text-center">{{ page.subtitle }}</h1>
+        <h2 class="text-center">{{ page.subsubtitle }}</h2>
+        <h3 class="text-center">{{ page.subsubsubtitle }}</h3>
+      </div>
+      {% endif %}
 
       <div class="container {% if page.title == 'Home' %}donatius{% endif %} content">
         {{ content }}

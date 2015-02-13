@@ -4,7 +4,7 @@ title: "Sense títol 2. Lalaia, 2013"
 share: true
 class: artwork
 categories:
-  - artwork
+  - artwork2014
   - home
 published: true
 ---
