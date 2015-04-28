@@ -41,32 +41,23 @@ patrocina:
   blanz:
     description:  BlanZ - patrocinadors de barcelona digital art
     logo: "blanz-organitzadors-barcelona-digital-art-footer.jpg"
-  idodi:
-    description:  IDODI - patrocinadors de barcelona digital art
-    logo: "idodi-organitzadors-barcelona-digital-art-footer.jpg"
-  invysible:
-    description:  invysible - patrocinadors de barcelona digital art
-    logo: "invysible-organitzadors-barcelona-digital-art-footer.jpg"
+  canon:
+    description:  canon - patrocinadors de barcelona digital art
+    logo: "canon-organitzadors-barcelona-digital-art-footer.jpg"
 
 colabora:
   tona:
     description:  Tona Codina - col·laboradors de barcelona digital art
     logo: "tona-codina-organitzadors-barcelona-digital-art-footer.jpg"
-  moobeat:
-    description:  Moobeat - col·laboradors de barcelona digital art
-    logo: "moobeat-organitzadors-barcelona-digital-art-footer.jpg"
   oxygen:
     description:  Oxygen - col·laboradors de barcelona digital art
     logo: "oxygen-organitzadors-barcelona-digital-art-footer.jpg"
-    url:  http://www.oxygen.cat/
-  catalunya-empren:
-    description:  Catalunya Emprèn - col·laboradors de barcelona digital art
-    logo: "catalunya-empren-organitzadors-barcelona-digital-art-footer.jpg"
+    url:  "http://www.oxygen.cat/"
 
 participa:
-  ryans:
-    description: Ryans Irish Pub - participants de barcelona digital art
-    logo: ryans-pub-footer-digital-art-barcelona.jpg
+  toc:
+    description: "TOC Hostel & Suites - participants de barcelona digital art"
+    logo: toc-organitzadors-barcelona-digital-art-footer.jpg
   espanya:
     description: Hotel Espanya Rambles - participants de barcelona digital art
     logo: hotel-espanya-footer-digital-art-barcelona.jpg
@@ -76,6 +67,9 @@ participa:
   roommate:
     description: Room Mate - participants de barcelona digital art
     logo: room-mate-footer-digital-art-barcelona.jpg
+  gorilla:
+    description: gorilla - participants de barcelona digital art
+    logo: gorilla-organitzadors-barcelona-digital-art-footer.jpg
 
 assets: 
   baseurl: /public/
