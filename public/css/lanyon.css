@@ -67,6 +67,10 @@ figure img {
 h1 span {
   font-size: 1.5rem;
 }
+.lang-highlight {
+  font-weight: bold;
+  background: rgba(250,230,20,1);
+}
 .shop a.btn {
   color: #ffffff!important;
 }
