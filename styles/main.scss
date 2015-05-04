@@ -1,3 +1,12 @@
+---
+
+---
+@charset "utf-8";
+
+@import 'stylesheets/bootstrap';
+@import 'stylesheets/poole';
+@import 'stylesheets/syntax';
+
 /*
  *  ___
  * /\_ \
@@ -198,6 +207,18 @@ div.item p input.item_Quantity {
   body.mur .container, body.mur-diari .container, body.artwork .container, .container.donatius {
     max-width: 58rem;
   }
+}
+
+.no-margin {
+  margin: 0!important;
+}
+.margin-bottom-1 {
+  margin-bottom: 1em!important;
+}
+.padding-artwork-container { 
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
 }
 
 /*
@@ -928,3 +949,5 @@ a.btn-primary {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+@import 'stylesheets/googleforms';

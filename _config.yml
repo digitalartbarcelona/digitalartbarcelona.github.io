@@ -8,6 +8,9 @@ excerpt_separator: <!--more-->
 # Permalinks
 permalink:        pretty
 
+sass:
+ style: compressed
+
 # Setup
 title:            Barcelona Digital Art
 tagline:          2nd simultaneous digital art show in Barcelona 
