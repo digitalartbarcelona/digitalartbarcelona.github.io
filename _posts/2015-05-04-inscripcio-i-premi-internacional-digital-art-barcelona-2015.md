@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "'I Premi Internacional Digital Art Barcelona 2015' | <span class='lang-highlight'>[CA]</span> Formulari inscripció del participant / <span class='lang-highlight'>[ES]</span> Formulario inscripción del participante"
+og: true
+og-type: article
 share: true
 categories:
   - registration
