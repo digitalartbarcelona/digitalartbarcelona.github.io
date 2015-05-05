@@ -52,8 +52,8 @@ published: true
 		<label class="ss-q-item-label" for="entry_756232391"><div class="ss-q-title">Correu electrònic / Correo electrónico
 		<label for="itemView.getDomIdToLabel()" aria-label="(Camp obligatori)"></label>
 		<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
-		<div class="ss-q-help ss-secondary-text" dir="ltr">Exemple / Ejemplo<a href="mailto:elmeucorreu@elmeucorreu.cat">elmeucorreu@elmeucorreu.cat</a></div></label>
-		<input type="text" name="entry.756232391" value="" class="ss-q-short" id="entry_756232391" dir="auto" aria-label="Correu electrònic / Correo electrónico Exemple elmeucorreu@elmeucorreu.cat Ha de coincidir amb el patró." aria-required="true" required="" pattern="^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,3})$" title="Ha de coincidir amb el patr&oacute;.">
+		<div class="ss-q-help ss-secondary-text" dir="ltr">Exemple / Ejemplo <a href="mailto:elmeucorreu@elmeucorreu.cat">elmeucorreu@elmeucorreu.cat</a></div></label>
+		<input type="text" name="entry.756232391" value="" class="ss-q-short" id="entry_756232391" dir="auto" aria-label="Correu electrònic / Correo electrónico Exemple / Ejemplo elmeucorreu@elmeucorreu.cat Ha de coincidir amb el patró." aria-required="true" required="" pattern="^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,3})$" title="Ha de coincidir amb el patr&oacute;.">
 		<div class="error-message" id="1446007873_errorMessage">Ha de coincidir amb el patr&oacute;.</div>
 		<div class="required-message">Aquesta pregunta és obligatòria.</div>
 		</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
