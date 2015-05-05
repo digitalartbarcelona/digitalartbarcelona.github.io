@@ -28,7 +28,7 @@ paginate:         8
 paginate_path:    "blog/page:num"
 
 # Custom vars
-version:          1.0.0
+version:          1.2.0
 
 full-shop:
   repo:           http://www.artinpocket.cat/tienda/
