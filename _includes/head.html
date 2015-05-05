@@ -8,13 +8,13 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="description" content="{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}">
+  <meta name="description" content="{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{{ page.title | strip_html | strip_newlines | truncate: 160 }} &middot; {{ site.title | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
-      {{ page.title }} &ndash; {% if page.category == 'patrocinadors' %}patrocinadors{% endif %}{% if page.category == 'place' %}place{% endif %} &middot; {{ site.title }}
+      {{ page.title | strip_html | strip_newlines | truncate: 160 }} &ndash; {% if page.category == 'patrocinadors' %}patrocinadors{% endif %}{% if page.category == 'place' %}place{% endif %} &middot; {{ site.title }}
     {% endif %}
   </title>
 

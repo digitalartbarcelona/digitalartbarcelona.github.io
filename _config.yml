@@ -28,7 +28,7 @@ paginate_path:    "blog/page:num"
 version:          1.0.0
 
 full-shop:
-  repo:           http://www.inpocketart.com/botiga/
+  repo:           http://www.artinpocket.cat/tienda/
 
 twitter-sentence: "| Enjoy #BarcelonaDigitalArt, #BDA"
 
