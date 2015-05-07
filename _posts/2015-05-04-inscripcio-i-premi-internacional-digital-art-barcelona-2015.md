@@ -7,6 +7,7 @@ share: true
 categories:
   - registration
 published: true
+registratitonID: '1'
 ---
 
 <figure class="no-margin margin-bottom-1">
