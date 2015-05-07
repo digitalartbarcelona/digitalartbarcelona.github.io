@@ -55,17 +55,16 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
   <!-- Polymer web components for layout places -->
-  <script src="/bower_components/platform/platform.js"></script>
-  <link rel="import" href="/bower_components/digital-default/digital-default.html">
-  {% if page.title == "Espais d'exposició / Places of exhibition" %}
-  <link rel="import"
-      href="/bower_components/google-map/google-map.html">
-   <style>
-     google-map {
-        display: block;
-        height: 30em;
-      }
-    </style>
-  {% endif %}
+   <script>
+        if ('registerElement' in document
+          && 'createShadowRoot' in HTMLElement.prototype
+          && 'import' in document.createElement('link')
+          && 'content' in document.createElement('template')) {
+          
+        } else {
+          document.write('<script src="/bower_components/webcomponentsjs/webcomponents.js"><\/script>');
+        }
+   </script>
+
   {% include footer-css-js.html %}
 </head>

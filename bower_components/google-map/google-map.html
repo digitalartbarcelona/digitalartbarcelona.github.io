@@ -1,14 +1,7 @@
-<!--
-Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
--->
+<!-- Copyright (c) 2014 Google Inc. All rights reserved. -->
 
 <link rel="import" href="../polymer/polymer.html">
-<link rel="import" href="../google-apis/google-apis.html">
+<link rel="import" href="../google-apis/google-apis.min.html">
 
 <!--
 The `google-map-marker` element represents a map marker. It is used as a
@@ -39,7 +32,7 @@ child of `google-map`.
 
 @element google-map-marker
 @status alpha
-@homepage github.io
+@homepage http://googlewebcomponents.github.io/google-map
 -->
 <polymer-element name="google-map-marker" attributes="icon">
 <template>
@@ -52,7 +45,7 @@ child of `google-map`.
 <script>
   (function() {
 
-    Polymer('google-map-marker', {
+    Polymer({
 
       /**
        * A Google Maps marker object.
@@ -99,7 +92,7 @@ child of `google-map`.
          * @default null
          */
         longitude: {value: null, reflect: true},
-        
+
         /**
          * The marker's latitude coordinate.
          *
@@ -115,9 +108,23 @@ child of `google-map`.
         longitude: 'updatePosition',
       },
 
+      detached: function() {
+        this.marker.setMap(null);
+      },
+
+      attached: function() {
+        // If element is added back to DOM, put it back on the map.
+        if (this.marker) {
+          this.marker.setMap(this.map);
+        }
+      },
+
       updatePosition: function() {
         if (this.marker && this.latitude != null && this.longitude != null) {
-          this.marker.setPosition({lat: this.latitude, lng: this.longitude});
+          this.marker.setPosition({
+            lat: parseFloat(this.latitude),
+            lng: parseFloat(this.longitude)
+          });
         }
       },
 
@@ -194,7 +201,7 @@ child of `google-map`.
       this.latitude = e.latLng.lat();
       this.longitude = e.latLng.lng();
     }
-    
+
     function setupDragHandler_() {
       if (this.draggable) {
         this.dragHandler_ = google.maps.event.addListener(
@@ -250,8 +257,25 @@ The `google-map` element renders a Google Map.
         startAddress="San Francisco" endAddress="Mountain View">
     </google-map-directions>
 
+<b>Example</b> - not all map options are included as attributes out of the box.
+To add custom map options, you can extend this element:
+
+    <polymer-element name="my-google-map" extends="google-map">
+      <script>
+        Polymer({
+
+          getMapOptions: function() {
+            var mapOptions = this.super();
+            mapOptions["streetViewControl"] = false;
+            return mapOptions;
+          }
+
+        });
+      </script>
+    </polymer-element>
+
 @element google-map
-@homepage github.io
+@homepage http://googlewebcomponents.github.io/google-map
 @blurb Element wrapper around Google Maps API.
 -->
 <!--
@@ -264,11 +288,11 @@ Fired when the Maps API has fully loaded.
 - Handle removals and support .innerHTML = ''.
 - Use <google-maps-api>.api instead of google.maps namespace.
 -->
-<polymer-element name="google-map" attributes="apiKey latitude longitude zoom showCenterMarker version map mapType disableDefaultUI fitToMarkers zoomable styles">
+<polymer-element name="google-map" attributes="apiKey latitude longitude zoom showCenterMarker version map mapType disableDefaultUI fitToMarkers zoomable styles maxZoom minZoom libraries">
 <template>
 
   <style>
-  
+
     :host {
       position: relative;
     }
@@ -280,19 +304,19 @@ Fired when the Maps API has fully loaded.
       bottom: 0;
       left: 0;
     }
-    
+
   </style>
 
-  <google-maps-api apiKey="{{apiKey}}" version="{{version}}" on-api-load="{{mapApiLoaded}}"></google-maps-api>
+  <google-maps-api apiKey="{{apiKey}}" version="{{version}}" on-api-load="{{mapApiLoaded}}" libraries="{{libraries}}"></google-maps-api>
 
   <div id="map"></div>
 
   <content id="markers" select="google-map-marker"></content>
-  
+
 </template>
 <script>
 
-  Polymer('google-map', {
+  Polymer({
 
     /**
      * A Maps API key. To obtain an API key, see developers.google.com/maps/documentation/javascript/tutorial#api_key.
@@ -310,6 +334,17 @@ Fired when the Maps API has fully loaded.
      * @default 37.77493
      */
     latitude: 37.77493,
+
+    /**
+     * A comma separated list (e.g. "places,geometry") of libraries to load
+     * with this map. Defaults to "places". For more information see
+     * https://developers.google.com/maps/documentation/javascript/libraries.
+     *
+     * @attribute libraries
+     * @type string
+     * @default "places"
+     */
+    libraries: "places",
 
     /**
      * A longitude to center the map on.
@@ -346,7 +381,7 @@ Fired when the Maps API has fully loaded.
      * @default roadmap
      */
     mapType: 'roadmap', // roadmap, satellite, hybrid, terrain
-    
+
     /**
      * Version of the Google Maps API to use.
      *
@@ -385,13 +420,39 @@ Fired when the Maps API has fully loaded.
 
     /**
      * If set, custom styles can be applied to the map.
-     * For style doucmentation see developers.google.com/maps/documentation/javascript/reference#MapTypeStyle
+     * For style documentation see developers.google.com/maps/documentation/javascript/reference#MapTypeStyle
      *
      * @attribute styles
      * @type JSON encoded array
      * @default null
      */
-    styles: {},
+    styles: [
+  {
+    "stylers": [
+      { "visibility": "on" },
+      { "hue": "#fae614" },
+      { "saturation": 0 }
+    ]
+  }
+],
+
+    /**
+     * A maximum zoom level which will be displayed on the map.
+     *
+     * @attribute maxZoom
+     * @type number
+     * @default null
+     */
+    maxZoom: null,
+
+    /**
+     * A minimum zoom level which will be displayed on the map.
+     *
+     * @attribute minZoom
+     * @type number
+     * @default null
+     */
+    minZoom: null,
 
     observe: {
       latitude: 'updateCenter',
@@ -401,19 +462,38 @@ Fired when the Maps API has fully loaded.
     created: function() {
       this.markers = [];
     },
-    
+
     attached: function() {
       this.resize();
     },
-    
+
     mapApiLoaded: function() {
+      this.map = new google.maps.Map(this.$.map, this.getMapOptions());
+
+      this.updateCenter();
+      this.updateMarkers();
+      this.addMapListeners();
+
+      this.fire('google-map-ready');
+    },
+
+    /**
+     * Returns the an object with the current map configurations. Useful for
+     * overriding in a subclass.
+     *
+     * @method getMapOptions
+     * @return {object} Current map configuration.
+     */
+    getMapOptions: function() {
       var mapOptions = {
         zoom: this.zoom,
         mapTypeId: this.mapType,
         disableDefaultUI: this.disableDefaultUI,
         disableDoubleClickZoom: !this.zoomable,
         scrollwheel: this.zoomable,
-        styles: this.styles
+        styles: this.styles,
+        maxZoom: Number(this.maxZoom),
+        minZoom: Number(this.minZoom)
       };
 
       // Only override the default if set.
@@ -421,22 +501,20 @@ Fired when the Maps API has fully loaded.
       if (this.getAttribute("draggable") != null) {
         mapOptions.draggable = this.draggable
       }
-
-      this.map = new google.maps.Map(this.$.map, mapOptions);
-
-      this.updateCenter();
-      this.updateMarkers();
-
-      this.fire('google-map-ready');      
+      return mapOptions;
     },
 
     updateMarkers: function() {
       this.markers = Array.prototype.slice.call(
           this.$.markers.getDistributedNodes());
-      
+
+      if (this.centerMarker) {
+        this.markers.push(this.centerMarker);
+      }
+
       this.onMutation(this, this.updateMarkers); // Watch for future updates.
 
-      // Set the map on each marker and zoom viewport to ensure they're in view. 
+      // Set the map on each marker and zoom viewport to ensure they're in view.
       if (this.markers.length && this.map) {
         for (var i = 0, m; m = this.markers[i]; ++i) {
           m.map = this.map;
@@ -458,52 +536,92 @@ Fired when the Maps API has fully loaded.
         m.marker.setMap(null);
       }
     },
-    
+
+    /**
+     * Explicitly resizes the map, updating its center. This is useful if the
+     * map does not show after you have unhidden it.
+     *
+     * @method resize
+     */
     resize: function() {
       if (this.map) {
         google.maps.event.trigger(this.map, 'resize');
         this.updateCenter();
       }
     },
-    
+
     updateCenter: function() {
-      if (!this.map || this.latitude == null || this.longitude == null ||
-          typeof this.latitude === 'object' || 
-          typeof this.longitude === 'object') {
+      if (!this.map) {
         return;
+      } else if (typeof this.latitude !== 'number' || isNaN(this.latitude)) {
+        throw new TypeError('latitude must be a number');
+      } else if (typeof this.longitude !== 'number' || isNaN(this.longitude)) {
+        throw new TypeError('longitude must be a number');
       }
-      this.map.panTo(
-          new google.maps.LatLng(this.latitude, this.longitude));
+
+      var newCenter = new google.maps.LatLng(this.latitude, this.longitude);
+      var oldCenter = this.map.getCenter();
+
+      if (!oldCenter) {
+        // If the map does not have a center, set it right away.
+        this.map.setCenter(newCenter);
+      } else {
+        // Using google.maps.LatLng returns corrected lat/lngs.
+        oldCenter = new google.maps.LatLng(oldCenter.lat(), oldCenter.lng());
+
+        // If the map currently has a center, slowly pan to the new one.
+        if (!oldCenter.equals(newCenter)) {
+          this.map.panTo(newCenter);
+        }
+      }
       this.showCenterMarkerChanged();
     },
-    
+
     zoomChanged: function() {
       if (this.map) {
         this.map.setZoom(Number(this.zoom));
       }
     },
-    
+
+    maxZoomChanged: function() {
+      if (this.map) {
+        this.map.setOptions({maxZoom: Number(this.maxZoom)});
+      }
+    },
+
+    minZoomChanged: function() {
+      if (this.map) {
+        this.map.setOptions({minZoom: Number(this.minZoom)});
+      }
+    },
+
     mapTypeChanged: function() {
       if (this.map) {
         this.map.setMapTypeId(this.mapType);
       }
     },
-    
+
     showCenterMarkerChanged: function() {
       if (!this.map) {
         return;
       }
-      if (!this.centerMarker && this.showCenterMarker) {
-        this.centerMarker = new google.maps.Marker({
-          map: this.map
-        });
+      if (this.showCenterMarker) {
+        if (!this.centerMarker) {
+          this.centerMarker = document.createElement('google-map-marker');
+        }
+        var center = this.map.getCenter();
+        this.centerMarker.latitude = center.lat();
+        this.centerMarker.longitude = center.lng();
+      } else {
+        if (this.centerMarker) {
+          //TODO(bamnet): Clean up markers so they can be removed easier from a map.
+          this.centerMarker.marker.setMap(null);
+          this.centerMarker = null;
+        }
       }
-      if (this.centerMarker) {
-        this.centerMarker.setPosition(this.map.getCenter());
-        this.centerMarker.setMap(this.showCenterMarker ? this.map : null);
-      }
+      this.updateMarkers();
     },
-    
+
     disableDefaultUIChanged: function() {
       if (!this.map) {
         return;
@@ -536,7 +654,7 @@ Fired when the Maps API has fully loaded.
     fitToMarkersChanged: function() {
       // TODO(ericbidelman): respect user's zoom level.
 
-      if (this.map && this.fitToMarkers) { 
+      if (this.map && this.fitToMarkers) {
         var latLngBounds = new google.maps.LatLngBounds();
         for (var i = 0, m; m = this.markers[i]; ++i) {
           latLngBounds.extend(
@@ -547,12 +665,24 @@ Fired when the Maps API has fully loaded.
         if (this.markers.length > 1) {
           this.map.fitBounds(latLngBounds);
         }
-        
+
         this.map.setCenter(latLngBounds.getCenter());
       }
+    },
+
+    addMapListeners: function() {
+      google.maps.event.addListener(this.map, 'center_changed', function() {
+        var center = this.map.getCenter();
+        this.latitude = center.lat();
+        this.longitude = center.lng();
+      }.bind(this));
+
+      google.maps.event.addListener(this.map, 'zoom_changed', function() {
+        this.zoom = this.map.getZoom();
+      }.bind(this));
     }
-    
+
   });
-  
+
 </script>
 </polymer-element>

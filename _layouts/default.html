@@ -7,7 +7,7 @@ layout: compress
 
   {% include head.html %}
 
-  <body unresolved class="theme-base-0a {% if page.category == 'mur' %}mur{% endif %}{% if page.category == 'mur-diari' or page.title == 'Aportacions' %}mur-diari{% endif %}{% if page.class == 'artwork' %}artwork{% endif %} {% if page.title == 'Home' %}home{% endif %}">
+  <body  {% if page.title == "Espais d'exposició / Places of exhibition" %}unresolved{% endif %} class="theme-base-0a {% if page.category == 'mur' %}mur{% endif %}{% if page.category == 'mur-diari' or page.title == 'Aportacions' %}mur-diari{% endif %}{% if page.class == 'artwork' %}artwork{% endif %} {% if page.title == 'Home' %}home{% endif %}">
   <digital-default></digital-default>
     {% include sidebar.html %}
 

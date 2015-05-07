@@ -1,19 +1,44 @@
 {
   "name": "google-map",
-  "private": true,
+  "homepage": "http://googlewebcomponents.github.io/google-map",
+  "description": "Google Maps web components",
+  "main": "google-map.html",
+  "authors": [
+    "Frankie Fu <ffu@google.com>",
+    "Scott Miles <sjmiles@google.com>",
+    "Eric Bidelman <ebidel@gmail.com>"
+  ],
+  "license": "Apache-2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "../"
+  ],
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "google",
+    "apis",
+    "maps"
+  ],
   "dependencies": {
-    "google-apis": "PolymerLabs/google-apis#>=0.3.0 <1.0.0"
+    "google-apis": "GoogleWebComponents/google-apis#~0.4.2"
   },
-  "homepage": "https://github.com/PolymerLabs/google-map",
-  "version": "0.3.0",
-  "_release": "0.3.0",
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^1.1.2"
+  },
+  "_release": "b31ef7166c",
   "_resolution": {
-    "type": "version",
-    "tag": "0.3.0",
-    "commit": "4c78ea13783567f594c7aa04afe71926a1c7e345"
+    "type": "branch",
+    "branch": "master",
+    "commit": "b31ef7166c8cc38064744e8dac2ebf15f6c3ea2b"
   },
-  "_source": "git://github.com/PolymerLabs/google-map.git",
-  "_target": "~0.3.0",
-  "_originalSource": "PolymerLabs/google-map",
+  "_source": "git://github.com/GoogleWebComponents/google-map.git",
+  "_target": "master",
+  "_originalSource": "GoogleWebComponents/google-map",
   "_direct": true
 }
