@@ -3,7 +3,7 @@
     <p><small><a class="footer-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a> |
     {% assign pages_list = site.pages %}
     {% for node in pages_list %}
-      {% if node.title != null and node.title != "Moltes gràcies per la teva participació" %}
+      {% if node.title != null and node.title != "Moltes gràcies per la teva participació" and node.title != "Thank you for your participation" %}
         {% if node.layout == "page" or node.layout == 'place' %}
           <a class="footer-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a> |
         {% endif %}
