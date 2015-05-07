@@ -22,7 +22,7 @@ layout: default
   {% endfor %}
   </div>
 <br style="clear:both" />
-  <google-map latitude="41.3804463" longitude="2.1800922" disableDefaultUI fitToMarkers zoom="15">
+  <google-map latitude="41.3804463" longitude="2.1800922" disableDefaultUI zoom="15">
       {% for place in site.data.places %}
       <google-map-marker latitude="{{ place.latitude }}" longitude="{{ place.longitude }}"
                          title="{{ place.name }}" draggable="false" icon="/public/favicon.ico">
