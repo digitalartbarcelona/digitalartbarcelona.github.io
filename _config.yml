@@ -52,8 +52,11 @@ patrocina:
     logo: "canon-organitzadors-barcelona-digital-art-footer.jpg"
 
 colabora:
+  gencat:
+    description: "Generalitat de Catalunya, Departament de Cultura - col·laboradors de barcelona digital art"
+    logo: "generalitat-de-catalunya-organitzadors-barcelona-digital-art-footer.jpg"
   deliverum:
-    description:  Deliverum - col·laboradors de barcelona digital art
+    description: Deliverum - col·laboradors de barcelona digital art
     logo: "deliverum-organitzadors-barcelona-digital-art-footer.jpg"
   tona:
     description:  Tona Codina - col·laboradors de barcelona digital art
