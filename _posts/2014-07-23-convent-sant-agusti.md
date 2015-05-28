@@ -3,6 +3,9 @@ layout: post
 title: Convent de Sant Agustí
 category: place
 share: true
+class: who
+og: true
+who: 2
 ---
 
 <figure class="text-center">

@@ -3,6 +3,9 @@ layout: post
 title: Artinpocket
 category: patrocinadors
 share: true
+class: who
+og: true
+who: 1
 ---
 
 <figure class="text-center">

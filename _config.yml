@@ -39,20 +39,25 @@ organitza:
   artinpocket:
     description:  Artinpocket - organitzadors de barcelona digital art
     logo: "artinpocket-organitzadors-barcelona-digital-art-footer.jpg"
+    id: 1
   convent-sant-agusti:
     description:  Convent de Sant Agustí - organitzadors de barcelona digital art
     logo: "convent-sant-agusti-organitzadors-barcelona-digital-art-footer.jpg"
+    id: 2
 
 patrocina:
   blanz:
     description:  BlanZ - patrocinadors de barcelona digital art
     logo: "blanz-organitzadors-barcelona-digital-art-footer.jpg"
+    id: 3
   canon:
     description:  canon - patrocinadors de barcelona digital art
     logo: "canon-organitzadors-barcelona-digital-art-footer.jpg"
+    id: 4
   tram:
     description:  TRAM - patrocinadors de barcelona digital art
     logo: "tram-organitzadors-barcelona-digital-art-footer.jpg"
+    id: 5
 
 colabora:
   gencat:

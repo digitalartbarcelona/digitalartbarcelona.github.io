@@ -21,28 +21,18 @@
   <meta property="og:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }}" />
   <meta property="og:type" content="{{ page.og-type }}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-      {% if page.class == 'artwork' %}
-          {% assign work_data = site.data.inscripcions.completavisites | where:"id", page.work %}
-          {% assign work = work_data | first %}
-          <meta property="og:image" content="{{ site.url }}{{ work.featured_src }}" />
-          <meta property="og:description" content="{{ work.description | strip_html }}" />
+      {% if page.category == 'patrocinadors' %}
+          {% assign who_data = site.patrocina | where:"id", page.who %}
+          {% assign who = who_data | first %}
+          <meta property="og:image" content="{{ site.url }}/{{ who.logo }}" />
+          <meta property="og:description" content="{{ who.description | strip_html | strip_newlines | truncate: 160 }}" />
 
           <meta name="twitter:card" content="summary_large_image">
           <meta name="twitter:site" content="@{{ site.twitter }}">
           <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
           <meta name="twitter:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }}">
-          <meta name="twitter:description" content="{{ work.description | strip_html }}">
-          <meta name="twitter:image:src" content="{{ site.url }}{{ work.featured_src }}">
-      {% else %}
-          <meta property="og:image" content="{{ site.url }}/public/img/words-alberto-espinosa-mostra-art-digital-artinpocket-watermark.jpg" />
-          <meta property="og:description" content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 }} | {{ site.title | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.subdescription  | strip_html  | strip_newlines | truncate: 160 }} | {{ site.title | strip_html | strip_newlines | truncate: 160 }}{% endif %}" />
-
-          <meta name="twitter:card" content="summary_large_image">
-          <meta name="twitter:site" content="@{{ site.twitter }}">
-          <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
-          <meta name="twitter:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }}">
-          <meta name="twitter:description" content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 }} | {{ site.title | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.subdescription | strip_html | strip_newlines | truncate: 160 }} | {{ site.title | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
-          <meta name="twitter:image:src" content="{{ site.url }}/public/img/words-alberto-espinosa-mostra-art-digital-artinpocket-watermark.jpg">
+          <meta name="twitter:description" content="{{ who.description | strip_html | strip_newlines | truncate: 160 }}">
+          <meta name="twitter:image:src" content="{{ site.url }}/{{ who.logo }}">
       {% endif %}
   {% endif %}
 
