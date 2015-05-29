@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Data Bending: dissenyar a partir d'errades informàtiques"
+title: "Podcast Radio"
 category: tallers
 share: true
 class: tallers
 og: true
-taller: 1
+taller: 9
 og-type: article
 ---
 

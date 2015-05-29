@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Data Bending: dissenyar a partir d'errades informàtiques"
+title: "Post producció audiovisual amb software lliure"
 category: tallers
 share: true
 class: tallers
 og: true
-taller: 1
+taller: 3
 og-type: article
 ---
 

@@ -6,6 +6,7 @@
     type: "EventVenue"
     name: "Convent de Sant Agustí"
     address: "Carrer del Comerç, 36, 08003 Barcelona"
+    googleMap: "https://www.google.cat/maps/dir//Carrer+del+Comerç,+36,+08003+Barcelona,+Espanya/"
   name: "Data Bending: dissenyar a partir d'errades informàtiques"
   offers: 
     type: "Offer"
@@ -31,11 +32,13 @@
   featured_src: data-bending-dissenyar-a-partir-d-errades-informatiques.jpg
 - context: "http://schema.org"
   id: 2
+  aspect_ratio: "16-9"
   type: "EducationEvent"
   location: 
     type: "EventVenue"
     name: "Convent de Sant Agustí"
     address: "Carrer del Comerç, 36, 08003 Barcelona"
+    googleMap: "https://www.google.cat/maps/dir//Carrer+del+Comerç,+36,+08003+Barcelona,+Espanya/"
   name: "Introducció a la computació interactiva"
   offers: 
     type: "Offer"
@@ -58,13 +61,16 @@
   endDate: "2015-07-17T13:00"
   timetable: "Dilluns, dimecres i divendres de 10 a 13h"
   description: "Durant el taller revisarem la constitució del maquinari i programari en els nostres ordinadors, estudiarem els conceptes tècnics fonamentals sobre àudio i vídeo digital, algoritmes i estructures de dades, i estudiarem programar orientats cap a la interacció, perquè els participants siguin capaços de programar sistemes que reaccionin a una àmplia gamma d'estímuls de l'entorn, obtenint respostes audiovisuals en temps real."
+  featured_src: introduccio-a-la-computacio-interactiva.jpg
 - context: "http://schema.org"
   id: 3
+  aspect_ratio: "16-9"
   type: "EducationEvent"
   location: 
     type: "EventVenue"
     name: "Convent de Sant Agustí"
     address: "Carrer del Comerç, 36, 08003 Barcelona"
+    googleMap: "https://www.google.cat/maps/dir//Carrer+del+Comerç,+36,+08003+Barcelona,+Espanya/"
   name: "Post producció audiovisual amb software lliure"
   offers: 
     type: "Offer"
@@ -87,13 +93,16 @@
   endDate: "2015-07-15T13:00"
   timetable: "Dilluns i dimecres de 10 a 13h"
   description: "Durant el taller revisarem l'abast de la filosofia copyleft, la cultura lliure, i la influència de les tecnologies digitals en les transformacions dels gèneres de la narrativa audiovisual. Estudiarem els fonaments tècnics de l'àudio i vídeo digital, i explorarem el panorama del maquinari i programari per a la post producció de l'audiovisual."
+  featured_src: post-produccio-audiovisual-amb-software-lliure.jpg
 - context: "http://schema.org"
   id: 4
+  aspect_ratio: "16-9"
   type: "EducationEvent"
   location: 
     type: "EventVenue"
     name: "Convent de Sant Agustí"
     address: "Carrer del Comerç, 36, 08003 Barcelona"
+    googleMap: "https://www.google.cat/maps/dir//Carrer+del+Comerç,+36,+08003+Barcelona,+Espanya/"
   name: "Pure Data tècniques per a VJ"
   offers: 
     type: "Offer"
@@ -116,13 +125,16 @@
   endDate: "2015-07-15T21:30"
   timetable: "Dilluns, dimecres i divendres de 18.30 a 21.30h"
   description: "Durant el taller coneixerem la constitució del maquinari i programari present en els nostres ordinadors i estudiarem els fonaments tècnics del vídeo digital orientat a la producció de vídeo en temps real."
+  featured_src: pure-data-tecniques-per-a-vj.jpg
 - context: "http://schema.org"
   id: 5
+  aspect_ratio: 9-16
   type: "EducationEvent"
   location: 
     type: "EventVenue"
     name: "Convent de Sant Agustí"
     address: "Carrer del Comerç, 36, 08003 Barcelona"
+    googleMap: "https://www.google.cat/maps/dir//Carrer+del+Comerç,+36,+08003+Barcelona,+Espanya/"
   name: "Illustrator per a artistes"
   offers: 
     type: "Offer"
@@ -139,13 +151,16 @@
   endDate: "2015-07-16T21:30"
   timetable: "Dimarts i dijous de 19 a 21.30"
   description: "En el taller es realitzarà el disseny d'un flyer i poster on també s'aprendrà la seva forma d'exportar correctament segons l'us que li volguem donar (web o impressió)."
+  featured_src: illustrator-per-a-artistes.jpg
 - context: "http://schema.org"
   id: 6
+  aspect_ratio: 16-9
   type: "EducationEvent"
   location: 
     type: "EventVenue"
     name: "Convent de Sant Agustí"
     address: "Carrer del Comerç, 36, 08003 Barcelona"
+    googleMap: "https://www.google.cat/maps/dir//Carrer+del+Comerç,+36,+08003+Barcelona,+Espanya/"
   name: "Photoshop per a artistes"
   offers: 
     type: "Offer"
@@ -164,11 +179,13 @@
   description: "1. Conceptes bàsics d’imatge digital i formats d’arxius. 2. Inteface, eines i dades del teclat. 3. Eines de selecció. 4. Ajustaments d’imatge(curves, nivells, equilibri de color etc...). 5. Accions en Photoshop. 6. Treballar amb Text. 7. Treballar amb capes, modes de fusió i propietats de les capes. 8. Eines per a retocar retrats i paisatge. 9. HDR. 10. Photomerge (panografia). 11. Eliminar ulls vermells. 12. Eina de liquatge. 13. Animar capes de Photoshop"
 - context: "http://schema.org"
   id: 7
+  aspect_ratio: 16-9
   type: "EducationEvent"
   location: 
     type: "EventVenue"
     name: "Convent de Sant Agustí"
     address: "Carrer del Comerç, 36, 08003 Barcelona"
+    googleMap: "https://www.google.cat/maps/dir//Carrer+del+Comerç,+36,+08003+Barcelona,+Espanya/"
   name: "After effects"
   offers: 
     type: "Offer"
@@ -187,11 +204,13 @@
   description: "1. Conceptes bàsics de video digital, formats i còdex. Interface d’after affects. 2. Importar arxius. Crear composicions. Conceptes bàsics d’animació. 3. Efectes i ajustaments preestablerts. Animar efectes. Màscares. 4. Capes. Modes de fusió. Remapeig del temps. Ampliació del temps. Barreja de fotogrames. 5. Exportació. Cua de processament."
 - context: "http://schema.org"
   id: 8
+  aspect_ratio: 16-9
   type: "EducationEvent"
   location: 
     type: "EventVenue"
     name: "Convent de Sant Agustí"
     address: "Carrer del Comerç, 36, 08003 Barcelona"
+    googleMap: "https://www.google.cat/maps/dir//Carrer+del+Comerç,+36,+08003+Barcelona,+Espanya/"
   name: "Modelatge i animació de personatges 3D amb software lliure"
   offers: 
     type: "Offer"
@@ -214,13 +233,16 @@
   endDate: "2015-07-18T14:00"
   timetable: "Divendres 10 i 17 de juliol de 16 a 20h. Dissabte 11 i 18 de juliol de 11 a 14h"
   description: "Durant el taller estudiarem els fonaments tècnics de la generació de gràfics per ordinador, la imatge i vídeo digital, i aprendrem a utilitzar el programa Blender i altres eines de programari lliure orientats cap a la creació i animació del nostre propi avatar."
+  featured_src: modelatge-i-animacio-de-personatges-3-d-amb-software-lliure.jpg
 - context: "http://schema.org"
   id: 9
+  aspect_ratio: 16-9
   type: "EducationEvent"
   location: 
     type: "EventVenue"
     name: "Convent de Sant Agustí"
     address: "Carrer del Comerç, 36, 08003 Barcelona"
+    googleMap: "https://www.google.cat/maps/dir//Carrer+del+Comerç,+36,+08003+Barcelona,+Espanya/"
   name: "Podcast Radio"
   offers: 
     type: "Offer"
@@ -238,13 +260,16 @@
   endDate: "2015-07-21T14:00"
   timetable: "Dimarts i dijous de 17 a 20h"
   description: "Conèixer i dominar les rutines, el llenguatge i les tècniques radiofòniques. Després, familiaritzar-se amb els recursos literaris i interpretatius necessaris per a produir i realitzar programes de ràdio creativa."
+  featured_src: podcast-radio.jpg
 - context: "http://schema.org"
   id: 10
+  aspect_ratio: 16-9
   type: "EducationEvent"
   location: 
     type: "EventVenue"
     name: "Convent de Sant Agustí"
     address: "Carrer del Comerç, 36, 08003 Barcelona"
+    googleMap: "https://www.google.cat/maps/dir//Carrer+del+Comerç,+36,+08003+Barcelona,+Espanya/"
   name: "Realitat virtual (VR). Introducció a la creació d'entorns en realitat virtual (VR) amb Unity 3D"
   offers: 
     type: "Offer"
@@ -267,3 +292,4 @@
   endDate: "2015-07-30T21:00"
   timetable: "Dijous de 17 a 21h"
   description: "Et presentem un innovador Taller d'Introducció a la creació d'entorns en Realitat Virtual immersiva, en el qual podràs realitzar el teu primer projecte bàsic de creació de VR, de manera guiada i pas a pas, utilitzant un dels principals programaris de programació destinats per a tal fi: Unity 3D (versió 5)."
+  featured_src: realitat-virtual-vr-introduccio-a-la-creacio-d-entorns-en-realitat-virtual-vr-amb-unity-3d.jpg

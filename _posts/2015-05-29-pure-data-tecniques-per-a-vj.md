@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Data Bending: dissenyar a partir d'errades informàtiques"
+title: "Pure Data tècniques per a VJ"
 category: tallers
 share: true
 class: tallers
 og: true
-taller: 1
+taller: 4
 og-type: article
 ---
 

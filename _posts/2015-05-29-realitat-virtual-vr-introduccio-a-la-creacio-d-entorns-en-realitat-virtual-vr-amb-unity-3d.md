@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Data Bending: dissenyar a partir d'errades informàtiques"
+title: "Realitat virtual (VR). Introducció a la creació d'entorns en realitat virtual (VR) amb Unity 3D"
 category: tallers
 share: true
 class: tallers
 og: true
-taller: 1
+taller: 10
 og-type: article
 ---
 

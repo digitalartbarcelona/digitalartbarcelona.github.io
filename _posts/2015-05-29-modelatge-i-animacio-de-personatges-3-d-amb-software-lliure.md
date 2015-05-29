@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Data Bending: dissenyar a partir d'errades informàtiques"
+title: "Modelatge i animació de personatges 3D amb software lliure"
 category: tallers
 share: true
 class: tallers
 og: true
-taller: 1
+taller: 8
 og-type: article
 ---
 

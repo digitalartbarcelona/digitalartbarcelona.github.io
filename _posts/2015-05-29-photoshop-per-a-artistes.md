@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Data Bending: dissenyar a partir d'errades informàtiques"
+title: "Photoshop per a artistes"
 category: tallers
 share: true
 class: tallers
 og: true
-taller: 1
+taller: 6
 og-type: article
 ---
 
@@ -13,7 +13,7 @@ og-type: article
 {% assign taller = taller_data | first %}
 <figure class="no-margin margin-bottom-1">
     <div class="embed-container embed-container_{{ taller.aspect_ratio }}">
-      <core-image sizing="cover" class="core-image-size" preload fade src="/public/img/tallers/{{ taller.featured_src }}"></core-image> 
+    <iframe src="https://player.vimeo.com/video/67581679" width="500" height="195" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
     <div class="padding-arttaller-container">
         <p><small>Del <strong>{{ taller.startDate | date_to_string }}</strong> al <strong>{{ taller.endDate | date_to_string }}</strong><br/>
