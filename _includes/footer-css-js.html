@@ -1,5 +1,7 @@
   <link rel="import"
       href="/bower_components/google-map/google-map.html">
+  <link rel="import"
+      href="/bower_components/core-image/core-image.min.html">
    <style>
      google-map {
         display: block;
@@ -92,3 +94,49 @@ ga('send', 'pageview');
 </script>
 
 <script src='https://cdn.goroost.com/roostjs/mtdjccewa0gxsdm4wogssfn55mrlhbxm' async></script>
+
+{% if page.class == 'tallers' %}
+  {% assign taller_data = site.data.activitats.tallers | where:"id", page.taller %}
+  {% assign taller = taller_data | first %}
+  <script type="application/ld+json">
+  {
+    "@context": "{{ taller.context }}",
+    "@type": "{{ taller.type }}",
+    "location": {
+      "@type": "{{ taller.location.type }}",
+      "name": "{{ taller.location.name }}",
+      "address": "{{ taller.location.address }}"
+    },
+    "name": "{{ taller.name }}",
+    "offers": {
+      "@type": "{{ taller.offers.type }}",
+      "url": "{{ taller.offers.url }}",
+      "price": "{{ taller.offers.price }}",
+      "priceCurrency": "{{ taller.offers.priceCurrency }}",
+      "availability": "{{ taller.offers.availability }}"
+    },
+    "performer": [
+     {% for performer in taller.performer %}
+     {% if forloop.last != true %}
+     {
+        "@type": "{{ performer.type }}",
+        "jobTitle": "{{ performer.jobTitle }}",
+        "name": "{{ performer.name }}",
+        "sameAs": "{{ performer.sameAs }}"
+      },
+     {% elsif forloop.last == true %}
+     {
+        "@type": "{{ performer.type }}",
+        "jobTitle": "{{ performer.jobTitle }}",
+        "name": "{{ performer.name }}",
+        "sameAs": "{{ performer.sameAs }}"
+      }
+     {% endif %}
+     {% endfor %}
+    "startDate": "{{ taller.startDate }}",
+    "endDate": "{{ taller.endDate }}",
+    "timetable": "{{ taller.timetable }}",
+    "description": "{{ taller.description }}"
+  }
+  </script>
+{% endif %}

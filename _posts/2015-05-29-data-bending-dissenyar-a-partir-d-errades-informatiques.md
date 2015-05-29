@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Data Bending: dissenyar a partir d'errades informàtiques"
+category: tallers
+share: true
+class: tallers
+og: true
+taller: 1
+og-type: article
+---
+
+{% assign taller_data = site.data.activitats.tallers | where:"id", page.taller %}
+{% assign taller = taller_data | first %}
+<figure class="no-margin margin-bottom-1">
+    <div class="embed-container embed-container_{{ taller.aspect_ratio }}">
+      <core-image sizing="cover" class="core-image-size" preload fade src="/public/img/tallers/{{ taller.featured_src }}"></core-image> 
+    </div>
+    <div class="padding-arttaller-container">
+        <h3>{{ taller.name }}</h3>
+        Del <strong>{{ taller.startDate | date_to_string }}</strong> al <strong>{{ taller.endDate | date_to_string }}</strong><br/>
+        <strong>Horari:</strong> {{ taller.timetable }}<br/>
+        <strong>Professorat:</strong><br/>
+        {% for performer in taller.performer %}
+     	{% if forloop.last != true %}
+        {{ performer.name }} | <a href="{{ performer.sameAs }}"><i class="fa fa-external-link"></i></a><br/>
+        {% elsif forloop.last == true %}
+     	{{ performer.name }} | <a href="{{ performer.sameAs }}"><i class="fa fa-external-link"></i></a>
+     	{% endif %}
+     	{% endfor %}<br/>
+     	<strong>Preu:</strong> {{ taller.offers.price }}€ | <a href="{{ taller.offers.url }}"><i class="fa fa-credit-card"></i> inscriu-t'hi</a>
+        <hr/>
+        {{ taller.description }}
+    </div>
+</figure>

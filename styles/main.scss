@@ -596,22 +596,41 @@ footer
 /* videos */
 .embed-container {
     position: relative; 
-    padding-bottom: 56.25%; 
     padding-top: 30px; 
     height: 0; 
     overflow: hidden; 
     max-width: 100%; 
     height: auto; 
     } 
+.embed-container_16-9 {
+  padding-bottom: 56.25%; 
+}
+.embed-container_4-3 {
+  padding-bottom: 75%; 
+}
+.embed-container_4-4 {
+  padding-bottom: 100%; 
+}
+.embed-container_3-4 {
+  padding-bottom: 125%; 
+}
+.embed-container_9-16 {
+  padding-bottom: 133.33%; 
+}
+.embed-container_3-1 {
+  padding-bottom: 33.33%; 
+}
 .embed-container iframe, 
 .embed-container object, 
-.embed-container embed { 
+.embed-container embed,
+.embed-container .core-image-size { 
     position: absolute; 
     top: 0; 
     left: 0; 
     width: 100%; 
     height: 100%;
-}
+    background-color: rgba(250,230,20,1);
+}   
 
 /* Countdown */
 .countdown {
