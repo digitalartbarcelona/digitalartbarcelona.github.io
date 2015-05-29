@@ -24,7 +24,7 @@
       {% if page.category == 'patrocinadors' %}
           {% assign who_data = site.patrocina | where:"id", page.who %}
           {% assign who = who_data | first %}
-          <meta property="og:image" content="{{ site.url }}/{{ who.logo }}" />
+          <meta property="og:image" content="{{ site.url }}/public/img/{{ who.logo }}" />
           <meta property="og:description" content="{{ who.description | strip_html | strip_newlines | truncate: 160 }}" />
 
           <meta name="twitter:card" content="summary_large_image">
@@ -32,7 +32,20 @@
           <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
           <meta name="twitter:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }}">
           <meta name="twitter:description" content="{{ who.description | strip_html | strip_newlines | truncate: 160 }}">
-          <meta name="twitter:image:src" content="{{ site.url }}/{{ who.logo }}">
+          <meta name="twitter:image:src" content="{{ site.url }}/public/img/{{ who.logo }}">
+      {% endif %}
+      {% if page.category == 'tallers' %}
+          {% assign taller_data = site.data.activitats.tallers | where:"id", page.taller %}
+          {% assign taller = taller_data | first %}
+          <meta property="og:image" content="{{ site.url }}/public/img/tallers/{{ taller.featured_src }}" />
+          <meta property="og:description" content="{{ taller.description | strip_html | strip_newlines | truncate: 160 }}" />
+
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:site" content="@{{ site.twitter }}">
+          <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
+          <meta name="twitter:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }}">
+          <meta name="twitter:description" content="{{ taller.description | strip_html | strip_newlines | truncate: 160 }}">
+          <meta name="twitter:image:src" content="{{ site.url }}/public/img/tallers/{{ taller.featured_src }}">
       {% endif %}
   {% endif %}
 
