@@ -21,7 +21,7 @@ category: mur-diari
 </div>
 <div id="video-show" class="related">
 <figure class="text-center">
-  <div class="embed-container">
+  <div class="embed-container embed-container_16-9">
     <iframe src="//player.vimeo.com/video/101696287?title=0&amp;portrait=0" width="500" height="314" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
   <figcaption>
