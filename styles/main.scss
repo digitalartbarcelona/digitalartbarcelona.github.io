@@ -255,7 +255,7 @@ div.item p input.item_Quantity {
  */
 
  .masthead {
-    background: url(/public/img/baner-barcelona-digital-art.jpg) no-repeat center center; 
+    background: url(/public/img/baner-barcelona-digital-art-2015.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -275,15 +275,16 @@ body.home .masthead {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  font-weight: bold;
 }
 .masthead-title a {
   color: #505050;
 }
 .masthead-title small {
   font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
+  color: #000000;
   letter-spacing: 0;
+  font-weight: bold;
 }
 
 @media (max-width: 48rem) {
@@ -927,13 +928,13 @@ a.btn-primary {
 .theme-base-0a .container a,
 .theme-base-0a .sidebar-toggle,
 .theme-base-0a .related-posts li a:hover {
-  color: #0088cc;
+  color: #A24C41;
 }
 .theme-base-0a .sidebar {
   color: rgba(0,0,0,.6);
 }
 .theme-base-0a .sidebar a{
-  color: #0088cc;
+  color: #A24C41;
 }
 
 /* Green */
