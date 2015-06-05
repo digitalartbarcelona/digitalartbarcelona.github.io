@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Premi / Award
+title: Premi / Award / Premio
 published: true
 ---
 
