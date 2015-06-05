@@ -78,6 +78,12 @@ colabora:
     url:  "http://www.oxygen.cat/"
 
 participa:
+  convent-sant-agusti:
+    description:  Convent de Sant Agustí - organitzadors de barcelona digital art
+    logo: "convent-sant-agusti-organitzadors-barcelona-digital-art-footer.jpg"
+  nauart:
+    description: "NAUART Espacio de creación - participants de barcelona digital art"
+    logo: nauart-organitzadors-barcelona-digital-art-footer.jpg
   amister:
     description: "SERCOHOTEL Amister - participants de barcelona digital art"
     logo: amister-organitzadors-barcelona-digital-art-footer.jpg

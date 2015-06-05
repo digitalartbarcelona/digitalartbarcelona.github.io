@@ -1,41 +1,44 @@
-- name:	Ryans Pub
-  address:	'Carrer Ample, 28, 08002 Barcelona'
-  url:	http://www.ryans.es/ryans-irish-pubs-overview/
-  twitter:	RyansPubs
-  facebook:	https://www.facebook.com/ryans2004
+- name:	NAUART - Espacio de creación
+  address:	"Carrer d'Espronceda, 154 08018, Barcelona"
+  url:	http://www.nauart.com/
+  twitter:	NauART_
+  facebook:	https://www.facebook.com/EspaiNauArt
   screening-ca: "Pendent confirmació"
   screening-en: "Pending confirmation"
-  latitude:	41.3804463
-  longitude:	2.1800922
-  logo:	ryans-pub-place-digital-art-barcelona.png
+  latitude:	41.4086252
+  longitude:	2.2004852
+  getdirections: "https://www.google.com/maps/dir//Carrer+d'Espronceda,+154,+08018+Barcelona,+Espanya/"
+  logo:	nauart-place-digital-art-barcelona.jpg
   id:	1
-  url-in: /place/2014/07/23/ryans-pub-carrer-ample/
+  url-in: /place/2015/06/05/nauart-espacio-de-creacion/
 
-- name:	Ryans Pub
-  address:	'Carrer dels Escudellers, 24, 08002 Barcelona'
-  url:	http://www.ryans.es/ryans-irish-pubs-overview/
-  twitter:	RyansPubs
-  facebook:	https://www.facebook.com/ryans2004
+- name:	Gorilla Bar
+  address:	"Carrer del Torrent de l'Olla, 39 08012 Barcelona"
+  url:	"https://plus.google.com/111173747454186124142/about?gl=es&hl=ca"
+  twitter:	
+  facebook:	https://www.facebook.com/gorillabcn
   screening-ca: "Pendent confirmació"
   screening-en: "Pending confirmation"
-  latitude:	41.3799331
-  longitude:	2.1766979
-  logo:	ryans-pub-place-digital-art-barcelona.png
+  latitude:	41.399925
+  longitude:	2.159714
+  getdirections: "https://www.google.com/maps/dir//Carrer+del+Torrent+de+l'Olla,+39,+08012+Barcelona,+Espanya/"
+  logo:	gorilla-bar-place-digital-art-barcelona.jpg
   id:	2
-  url-in: /place/2014/07/23/ryans-pub-carrer-escudellers/
+  url-in: /place/2015/06/05/gorilla-bar/
 
-- name:	Ryans Pub
-  address:	"Carrer del Torrent de l'Olla, 39, 08012 Barcelona"
-  url:	http://www.ryans.es/ryans-irish-pubs-overview/
-  twitter:	RyansPubs
-  facebook:	https://www.facebook.com/ryans2004
+- name:	Amister Art Hotel SERCOHOTEL
+  address:	"Avinguda Roma, 93 08029 Barcelona"
+  url:	http://www.amisterhotel.com/
+  twitter:	AmisterHotel
+  facebook:	https://www.facebook.com/AmisterHotel
   screening-ca: "Pendent confirmació"
   screening-en: "Pending confirmation"
-  latitude:	41.3999468
-  longitude:	2.159661
-  logo:	ryans-pub-place-digital-art-barcelona.png
+  latitude:	41.384345
+  longitude:	2.151522
+  getdirections: "https://www.google.com/maps/dir//Avinguda+de+Roma,+93,+08029+Barcelona,+Espanya/"
+  logo:	amister-place-digital-art-barcelona.jpg
   id:	3
-  url-in: /place/2014/07/23/ryans-pub-carrer-torrent-de-l-olla/
+  url-in: /place/2015/06/05/amister-art-hotel/
 
 - name:	Room Mate Hotels – Pau Barcelona 
   address:	"Carrer de Fontanella, 7, 08010 Barcelona"
@@ -46,6 +49,7 @@
   screening-en:	"Pending confirmation"
   latitude:	41.3874734
   longitude:	2.1719213
+  getdirections: "https://www.google.com/maps/dir//Carrer+de+Fontanella,+7,+08010+Barcelona,+Espanya/"
   logo:	room-mate-place-digital-art-barcelona.jpg
   id:	4
   url-in: /place/2014/07/23/room-mate-hotels/
@@ -60,6 +64,7 @@
   screening-en: "Pending confirmation"
   latitude:	41.3799325
   longitude:	2.1727817
+  getdirections: "https://www.google.com/maps/dir//Carrer+de+Sant+Pau,+9,+08001+Barcelona,+Espanya/"
   logo:	hotel-espanya-place-digital-art-barcelona.jpg
   id:	5
   url-in: /place/2014/07/23/hotel-espanya/
@@ -86,19 +91,21 @@
   screening-en:	"Pending confirmation"
   latitude:	41.3877519
   longitude:	2.181529
+  getdirections: "https://www.google.com/maps/dir//Carrer+de+Sant+Pau,+11,+08001+Barcelona,+Espanya/"
   logo:	convent-sant-agusti-place-barcelona-digital-art.jpg
   id:	7
   url-in: /place/2014/07/23/convent-sant-agusti/
 
-- name:	In.vysible 
-  address:	"Carrer del Portal Nou, 48 08003 Barcelona"
-  url:	http://www.invysible.com/
-  twitter:	in_vysible
-  facebook:	https://www.facebook.com/in.vysible
+- name:	TOC Hostel Barcelona 
+  address:	"Gran Via de les Corts Catalanes, 580 08011 Barcelona"
+  url:	http://tochostels.com/barcelona/
+  twitter:	TocHostels
+  facebook:	https://www.facebook.com/tochostels
   screening-ca:	"Pendent confirmació"
   screening-en:	"Pending confirmation"	
-  latitude:	41.3893575
-  longitude:	2.1808913
-  logo:	invysible-place-barcelona-digital-art.jpg
+  latitude:	41.384761
+  longitude:	2.162473
+  getdirections: "https://www.google.com/maps/dir//Gran+Via+de+les+Corts+Catalanes,+580,+08011+Barcelona,+Espanya/"
+  logo:	toc-place-barcelona-digital-art.jpg
   id:	8
-  url-in: /place/2014/07/23/invysible/
+  url-in: /place/2015/06/05/toc/
