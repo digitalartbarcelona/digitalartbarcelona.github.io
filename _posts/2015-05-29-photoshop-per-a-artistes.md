@@ -33,4 +33,6 @@ og-type: article
 
 <!--more-->
 
-<p>{{ taller.description }}</p>
+<p><strong>{{ taller.description }}</strong></p>
+<hr/>
+<p><em>{{ taller.description-es }}</em></p>

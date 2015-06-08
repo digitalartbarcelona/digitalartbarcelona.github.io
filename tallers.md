@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tallers / Workshops
+title: Tallers / Workshops / Talleres
 category: mur
 ---
 
