@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Qui som? / Who are we?
+title: Qui som? / Who are we? / ¿Quienes somos?
 category: mur
 ---
 
