@@ -1,6 +1,6 @@
 ---
 layout: place
-title: "Espais d'exposició / Places of exhibition / Espacios de exhibición"
+title: "Espais d'exposició / Places of exhibition / Espacios de exposición"
 category: 'mur'
 class: 'places'
 published: true
