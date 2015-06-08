@@ -29,8 +29,8 @@ layout: default
            <p class="text-center"><a href="{{ place.url-in }}"><img src="/public/img/{{ place.logo }}"></a></p>
            <p>
 	      <strong><a href="{{ place.url-in }}">{{ place.name }}</a></strong><br/>
-	      <strong>Adreça</strong> / <em>Address</em>: {{ place.address }}<br/>
-        <strong><a href="{{ place.getdirections }}">Com arribar-hi?</a></strong> / <em><a href="{{ place.getdirections }}">Get directions</a></em><br/>
+	      <strong>Adreça</strong> / <em>Address</em> / Dirección: {{ place.address }}<br/>
+        <strong><a href="{{ place.getdirections }}">Com arribar-hi?</a></strong> / <em><a href="{{ place.getdirections }}">Get directions</a></em> / <a href="{{ place.getdirections }}">¿Cómo llegar?</a><br/>
 	      <strong>Horari projecció</strong> / <em>Screening timetable</em>: <strong>{{ place.screening-ca }}</strong> / <em>{{ place.screening-en }}</em><br/>
 	    </p>
       </google-map-marker>
