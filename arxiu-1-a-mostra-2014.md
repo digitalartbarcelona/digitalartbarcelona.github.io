@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Arxiu 1a mostra 2014 / Archive 1st exhition 2014
+title: Arxiu 1a mostra 2014 / Archive 1st exhition 2014 / Archivo 1ª muestra 2014
 category: mur-diari
 ---
 
