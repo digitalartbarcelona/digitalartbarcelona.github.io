@@ -2,6 +2,9 @@
 layout: page
 title: Qui som? / Who are we? / ¿Quienes somos?
 category: mur
+class: ''
+og: true
+og-type: article
 ---
 
 <div class="posts">
