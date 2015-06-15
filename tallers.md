@@ -2,6 +2,9 @@
 layout: page
 title: Tallers / Workshops / Talleres
 category: mur
+class: ''
+og: true
+og-type: article
 ---
 
 <div class="posts">
