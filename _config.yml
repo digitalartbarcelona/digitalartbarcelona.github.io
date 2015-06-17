@@ -102,6 +102,9 @@ participa:
   gorilla:
     description: gorilla - participants de barcelona digital art
     logo: gorilla-organitzadors-barcelona-digital-art-footer.jpg
+  balmes:
+    description: Restaurant Balmes Rosselló - participants de barcelona digital art
+    logo: restarurant-balmes-rossello-organitzadors-barcelona-digital-art-footer.jpg
 
 assets: 
   baseurl: /public/

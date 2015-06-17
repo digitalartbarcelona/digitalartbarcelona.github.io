@@ -109,3 +109,17 @@
   logo:	toc-place-barcelona-digital-art.jpg
   id:	8
   url-in: /place/2015/06/05/toc/
+
+- name: Restuarant Balmes Rosselló
+  address:  "Carrer de Balmes, 129 08008 Barcelona"
+  url:  http://balmes-rossello.com/
+  twitter:  balmesrossello
+  facebook: https://www.facebook.com/BALMESROSSELLO
+  screening-ca: "Aviat!"
+  screening-en: "Soon!" 
+  latitude: 41.393097
+  longitude:  2.157462
+  getdirections: "https://www.google.es/maps/dir//Restaurante+Balmes%2F+Rossell%C3%B3,+Carrer+de+Balmes,+129,+08008+Barcelona,+Espanya/"
+  logo: restarurant-balmes-rossello-place-barcelona-digital-art.jpg
+  id: 9
+  url-in: /place/2015/06/17/restarurant-balmes-rossello/
