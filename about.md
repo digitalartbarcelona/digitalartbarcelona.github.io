@@ -4,8 +4,10 @@ title: La mostra / The shwow / La muestra
 published: true
 ---
 
-<figure class="text-center">
-	<img src="/public/img/2-nd-simultaneous-digital-art-show-flyer-2015.jpg">
+<figure class="no-margin margin-bottom-1">
+    <div class="embed-container embed-container_9-16">
+      <core-image sizing="cover" class="core-image-size" preload fade src="/public/img/2-nd-simultaneous-digital-art-show-flyer-2015.jpg"></core-image> 
+    </div>
 	<figcaption>
 		<p><small><strong>MAD Barcelona - II Mostra Simultània d'Art Digital</strong></small></p>
 	</figcaption>
