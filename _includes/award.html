@@ -10,6 +10,9 @@
 
   <h2><span class="lang-highlight">[CA]</span> Inscripció per poder participar <span class="lang-highlight">[ES]</span> Inscripción para poder participar <span class="lang-highlight">[EN]</span> Registration to participate</h2>
 
+  
+  {% assign end_date = site.time | date_to_xmlschema %}
+  {% if end_date < site.endDate %}
   <div class="row"> 
     <div class="col-lg-10 col-lg-offset-1 text-center">
       <div class="row">
@@ -24,5 +27,55 @@
       </div>
     </div>
   </div>
+  {% else %}
+  <div class="row text-center">
+      <div class="col-lg-8 col-lg-offset-2">
+          <h3><span class="lang-highlight">[CA]</span> <span class="label label-warning">Inscripcions tancades!</span></h3>
+          <p>Eps, les inscripcions es van tancar <strong>el {% assign m = site.endDate | date: "%-m" %}
+          {{ site.endDate | date: "%-d" }} de
+          {% case m %}
+            {% when '1' %}Gener
+            {% when '2' %}Febrer
+            {% when '3' %}Març
+            {% when '4' %}Abril
+            {% when '5' %}Maig
+            {% when '6' %}Juny
+            {% when '7' %}Juliol
+            {% when '8' %}Agost
+            {% when '9' %}Setembre
+            {% when '10' %}octubre
+            {% when '11' %}Novembre
+            {% when '12' %}Desembre
+          {% endcase %}
+          del {{ site.endDate | date: "%Y" }}</strong>. Moltes gràcies a tots els participants. El 19 de juliol comunicarem el guanyador del Premi</p>
+      </div>
+      <hr />
+      <div class="col-lg-8 col-lg-offset-2">
+          <h3><span class="lang-highlight">[ES]</span> <span class="label label-warning">¡Inscripciones cerradas!</span></h3>
+          <p>Eps, las inscripciones se cerraron <strong>el {% assign m = site.endDate | date: "%-m" %}
+          {{ site.endDate | date: "%-d" }} de
+          {% case m %}
+            {% when '1' %}Enero
+            {% when '2' %}Febrero
+            {% when '3' %}Marzo
+            {% when '4' %}Abril
+            {% when '5' %}Mayo
+            {% when '6' %}Junio
+            {% when '7' %}Julio
+            {% when '8' %}Agosto
+            {% when '9' %}Septiembre
+            {% when '10' %}Octubre
+            {% when '11' %}Noviembre
+            {% when '12' %}Diciembre
+          {% endcase %}
+          del {{ site.endDate | date: "%Y" }}</strong>. Muchas gracias a todos los participantes. El 19 de julio comunicaremos el ganador del Premio</p>
+      </div>
+      <hr />
+      <div class="col-lg-8 col-lg-offset-2">
+          <h3><span class="lang-highlight">[EN]</span> <span class="label label-warning">Registration closed!</span></h3>
+          <p>Eps, registration closed <strong>on {{ site.endDate | date_to_long_string }}</strong>. Thank you very much to all participants. On July 19 we will publish the winner of the Prize.</p>
+      </div>
+  </div>
+  {% endif %}
     
 </section>

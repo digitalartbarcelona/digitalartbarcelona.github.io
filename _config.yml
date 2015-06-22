@@ -24,6 +24,8 @@ author:
   name:           'Ramon Gil'
   url:            https://twitter.com/freecates
 
+endDate: '2015-06-21T23:59:00+02:00'
+
 paginate:         8
 paginate_path:    "blog/page:num"
 
