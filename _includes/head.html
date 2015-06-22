@@ -47,7 +47,7 @@
           <meta name="twitter:description" content="{{ taller.description | strip_html | strip_newlines | truncate: 160 }}">
           <meta name="twitter:image:src" content="{{ site.url }}/public/img/tallers/{{ taller.featured_src }}">
       {% endif %}
-      {% if page.class == '' %}
+      {% if page.class == '' or page.class == 'places' %}
           <meta property="og:image" content="{{ site.url }}/public/img/2-nd-simultaneous-digital-art-show-banner-og-2015.jpg" />
           <meta property="og:description" content="The 2nd exhibition of digital art in Barcelona is presented as a simultaneous exhibition in spaces and buildings of the city. The show was created with the aim of discovering and experimenting with digital art in environments outside the traditional art exhibition circuit" />
 
