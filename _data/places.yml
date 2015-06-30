@@ -9,6 +9,8 @@
   longitude:	2.2004852
   getdirections: "https://www.google.com/maps/dir//Carrer+d'Espronceda,+154,+08018+Barcelona,+Espanya/"
   logo:	nauart-place-digital-art-barcelona.jpg
+  img: 01-nauart-mad-2015.jpg
+  description: "NauART és un espai de producció artística centrat en les arts visuals i plàstiques contemporànies. La seva missió és potenciar la creació, la recerca i la difusió artística mitjançant el suport a creadors professionals, emergents i amateurs, fomentant la formació i l'intercanvi de recursos i experiències."
   id:	1
   url-in: /place/2015/06/05/nauart-espacio-de-creacion/
 
@@ -23,6 +25,8 @@
   longitude:	2.159714
   getdirections: "https://www.google.com/maps/dir//Carrer+del+Torrent+de+l'Olla,+39,+08012+Barcelona,+Espanya/"
   logo:	gorilla-bar-place-digital-art-barcelona.jpg
+  img: 01-gorilla-bar-mad-2015.jpg
+  description: "Gorilla és cafè, entrepans gastronòmics, còctels i cervesa al cor de Gràcia."
   id:	2
   url-in: /place/2015/06/05/gorilla-bar/
 
@@ -37,6 +41,8 @@
   longitude:	2.151522
   getdirections: "https://www.google.com/maps/dir//Avinguda+de+Roma,+93,+08029+Barcelona,+Espanya/"
   logo:	amister-place-digital-art-barcelona.jpg
+  img: 01-amister-art-hotel-mad-2015.jpg
+  description: "El Sercotel Ámister Art és un exclusiu, elegant i avantguardista hotel al centre de Barcelona, presentem un hotel ben comunicat, en el conegut eixample de Barcelona, amb fàcils accessos, i molt proper a l’Estació de Sants, nucli neuràlgic ferroviari de la capital catalana. El nostre hotel de negocis a Barcelona, es troba a tan sols cinc minuts a peu de la Plaça Espanya i molt a prop del recinte Firal i de Convencions. Es tracta d’una experiència cultural a Barcelona, a banda de recórrer la Ruta Modernista o de passejar per Passeig de Gràcia, en el Sercotel Ámister Art, descobriràs els valors de la ciutat comtal, a través de la seva arquitectura i de les seves àmplies obres d’art contemporani en el seu interior, descobreix el nostre hotel museu a Barcelona."
   id:	3
   url-in: /place/2015/06/05/amister-art-hotel/
 
@@ -51,6 +57,8 @@
   longitude:	2.1719213
   getdirections: "https://www.google.com/maps/dir//Carrer+de+Fontanella,+7,+08010+Barcelona,+Espanya/"
   logo:	room-mate-place-digital-art-barcelona.jpg
+  img: 01-room-mate-hotel-mad-2015.jpg
+  description: "Room Mate Pau és un hotel de disseny situat al centre de Barcelona a 50 metres de la plaça de Catalunya. Ofereix internet Wi-Fi gratuïta, totes les habitacions amb connexió VGA, HDMI i USB a l'escriptori per connectar el portàtil a la TV plana de 37 '', bufet d'esmorzar fins a les 12:00 i un bar-cafeteria amb terrassa a l'aire lliure a l'interior de l'illa ideal per a esdeveniments."
   id:	4
   url-in: /place/2014/07/23/room-mate-hotels/
 
@@ -66,6 +74,8 @@
   longitude:	2.1727817
   getdirections: "https://www.google.com/maps/dir//Carrer+de+Sant+Pau,+9,+08001+Barcelona,+Espanya/"
   logo:	hotel-espanya-place-digital-art-barcelona.jpg
+  img: 01-hotel-espanya-mad-2015.jpg
+  description: "L'Hotel España 4* és al carrer de Sant Pau, al cor del centre històric de Barcelona, al costat de la Rambla, el Gran Teatre del Liceu, el mercat de la Boqueria i una infinitat de llocs d'interès que fan de Barcelona una de les ciutats més cosmopolites d'Europa. L'Hotel España, considerat una petita joia del modernisme català, va obrir les portes el 1859 amb el nom de Fonda España i més endavant va ser reformat pel cèlebre arquitecte modernista Lluís Domènech i Montaner, al principi del segle XX, amb la col·laboració d'Eusebi Arnau i Ramon Casas."
   id:	5
   url-in: /place/2014/07/23/hotel-espanya/
 
@@ -79,6 +89,8 @@
   latitude:	41.3798454
   longitude:	2.1726976
   logo:	alaire-ramblas-terrace-place-digital-art-barcelona.jpg
+  img: 01-terrassa-alaire-mad-2015.jpg
+  description: "La terrassa ALAIRE RAMBLAS, situada a l'última planta de l'Hotel Espanya, és l'espai ideal per divertir-se a l'estiu, amb una decoració contemporània, actual i elegant, que convida a la conversa i al relaxament."
   id:	6
   url-in: /place/2014/07/23/alaire-terrace-bar/
 
@@ -93,6 +105,8 @@
   longitude:	2.181529
   getdirections: "https://www.google.com/maps/dir//Carrer+de+Sant+Pau,+11,+08001+Barcelona,+Espanya/"
   logo:	convent-sant-agusti-place-barcelona-digital-art.jpg
+  img: 01-covent-sant-agusti-mad-2015.jpg
+  description: "El Convent de Sant Agustí és un equipament de proximitat, obert i dinàmic, que pertany als barris de Sant Pere, Santa Caterina i la Ribera del districte de Ciutat Vella i que, juntament amb les entitats del barri, disposa d'una àmplia oferta de activitats i propostes culturals de gran varietat temàtica."
   id:	7
   url-in: /place/2014/07/23/convent-sant-agusti/
 
@@ -107,6 +121,8 @@
   longitude:	2.162473
   getdirections: "https://www.google.com/maps/dir//Gran+Via+de+les+Corts+Catalanes,+580,+08011+Barcelona,+Espanya/"
   logo:	toc-place-barcelona-digital-art.jpg
+  img: 01-toc-hostel-barcelona-mad-2015.jpg
+  description: "'TOC Barcelona' és un hostel únic. Tant pel seu disseny d'interiors, com la seva varietat d'habitacions com d'estils és un espai on sentir una experiència turística inoblidable tant si vols la privacitat d'una habitació per a tu sol o una confortable llitera en una de les nostres 'bunk rooms' compartides que es s'ajusti al teu pressupost."
   id:	8
   url-in: /place/2015/06/05/toc/
 
@@ -121,5 +137,7 @@
   longitude:  2.157462
   getdirections: "https://www.google.es/maps/dir//Restaurante+Balmes%2F+Rossell%C3%B3,+Carrer+de+Balmes,+129,+08008+Barcelona,+Espanya/"
   logo: restarurant-balmes-rossello-place-barcelona-digital-art.jpg
+  img: 01-balmes-rossello-mad-2015.jpg
+  description: "Balmes / Rosselló destaca per el seu gran espai. Un menjador que abasta la cantonada de la confluència dels dos carrers que li donen nom i que, malgrat la seva amplitud, conserva el caràcter càlid i acollidor amb el que ens agrada rebre als nostres clients. Marrons, verds, colors fusta símbol de la nostra tendència et donaran la benvinguda per fer-te sentir com a casa."
   id: 9
   url-in: /place/2015/06/17/restarurant-balmes-rossello/

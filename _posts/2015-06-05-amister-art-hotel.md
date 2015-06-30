@@ -3,6 +3,7 @@ layout: post
 title: Amister Art hotel SERCOHOTEL
 category: place
 share: true
+class: 'places'
 ---
 
 <figure class="text-center">
@@ -18,3 +19,14 @@ share: true
 	</figcaption>
 {% endfor %}
 </figure>
+<!--more-->
+{% for place in site.data.places limit:1 offset:2 %}
+<div class="row">
+	<div class="col-sm-6">
+		<p><a href="{{ place.url }}" title="{{ place.name }}"><img src="/public/img/{{ place.img }}" alt="{{ place.name}} - exhibidors de barcelona digital art" title="{{ place.name }} - exhibidors de barcelona digital art"></a></p>
+	</div>
+	<div class="col-sm-6">
+		<p>{{ place.description }}</p>
+	</div>
+</div>
+{% endfor %}
