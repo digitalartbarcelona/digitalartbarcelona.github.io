@@ -22,6 +22,7 @@ who: 2
 {% endfor %}
 </figure>
 <!--more-->
+<hr />
 {% for place in site.data.places limit:1 offset:6 %}
 <div class="row">
 	<div class="col-sm-6">

@@ -23,6 +23,7 @@ share: true
 {% endfor %}
 </figure>
 <!--more-->
+<hr />
 {% for place in site.data.places limit:1 offset:5 %}
 <div class="row">
 	<div class="col-sm-6">
