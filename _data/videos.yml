@@ -9,4 +9,5 @@
   description-en: "Ad of the MAD Barcelona 2015. The Second Simultaneous Digital Art Show held in Barcelona from 8th to 15th July."
   width: 1920
   height: 1280
-  codec: video/mp4
+  codec-mp4: video/mp4
+  codec-webm: video/webm
