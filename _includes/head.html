@@ -53,7 +53,7 @@
           <meta property="og:image" content="{{ site.url }}/public/video/{{ video.poster }}" />
           <meta property="og:description" content="{{ video.description | strip_html | strip_newlines | truncate: 160 }}" />
           <meta property="og:video:url" content="{{ site.url }}/public/video/{{ video.source-mp4 }}">
-          <meta property="og:video:secure_url" content="{{ site.url }}/public/{{ video.source-mp4 }}">
+          <meta property="og:video:secure_url" content="{{ site.url }}/public/video/{{ video.source-mp4 }}">
           <meta property="og:video:type" content="text/html">
           <meta property="og:video:width" content="{{ video.width }}">
           <meta property="og:video:height" content="{{ video.height }}">
