@@ -1,0 +1,12 @@
+- id: 1
+  aspect-ratio: 16-9
+  source-mp4: spot-mad-barcelona-2015-segona-mostra-simultania-d-art-digital.mp4
+  source-webm: spot-mad-barcelona-2015-segona-mostra-simultania-d-art-digital.webm
+  poster: spot-mad-barcelona-2015-segona-mostra-simultania-d-art-digital.png
+  title: "Spot MAD Barcelona 2015. Segona Mostra Simultània d'Art Digital."
+  description: "Spot de presentació de la MAD Barcelona 2015. La Segona Mostra Simultània d'Art Digital que es celebra a Barcelona del 8 al 15 de juliol."
+  description-es: "Spot de presentación de la MAD Barcelona 2015. La Segunda Muestra Simultánea de Arte Digital que se celebra en Barcelona del 8 al 15 de julio."
+  description-en: "Ad of the MAD Barcelona 2015. The Second Simultaneous Digital Art Show held in Barcelona from 8th to 15th July."
+  width: 1920
+  height: 1280
+  codec: video/mp4

@@ -47,6 +47,29 @@
           <meta name="twitter:description" content="{{ taller.description | strip_html | strip_newlines | truncate: 160 }}">
           <meta name="twitter:image:src" content="{{ site.url }}/public/img/tallers/{{ taller.featured_src }}">
       {% endif %}
+      {% if page.category == 'videos' %}
+          {% assign video_data = site.data.videos | where:"id", page.video %}
+          {% assign video = video_data | first %}
+          <meta property="og:image" content="{{ site.url }}/public/video/{{ video.poster }}" />
+          <meta property="og:description" content="{{ video.description | strip_html | strip_newlines | truncate: 160 }}" />
+          <meta property="og:video:url" content="{{ site.url }}/public/video/video.source-mp4">
+          <meta property="og:video:secure_url" content="{{ site.url }}/public/video.source-mp4">
+          <meta property="og:video:type" content="text/html">
+          <meta property="og:video:width" content="{{ video.width }}">
+          <meta property="og:video:height" content="{{ video.height }}">
+
+          <meta name="twitter:card" content="player">
+          <meta name="twitter:site" content="@{{ site.twitter }}">
+          <meta name="twitter:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }}">
+          <meta name="twitter:description" content="{{ video.description | strip_html | strip_newlines | truncate: 160 }}">
+          <meta name="twitter:image:src" content="{{ site.url }}/public/video/{{ video.poster }}">
+          <meta name="twitter:player" content="{{ site.url }}{{ page.url }}">
+          <meta name="twitter:player:width" content="{{ video.width }}">
+          <meta name="twitter:player:height" content="{{ video.height }}">
+          <meta name="twitter:player:stream" content="{{ site.url }}/public/video/video.source-mp4">
+          <meta name="twitter:player:stream:content_type" content="{{ video.codec }}">
+
+      {% endif %}
       {% if page.class == '' or page.class == 'places' %}
           <meta property="og:image" content="{{ site.url }}/public/img/2-nd-simultaneous-digital-art-show-banner-og-2015.jpg" />
           <meta property="og:description" content="The 2nd exhibition of digital art in Barcelona is presented as a simultaneous exhibition in spaces and buildings of the city. The show was created with the aim of discovering and experimenting with digital art in environments outside the traditional art exhibition circuit" />
