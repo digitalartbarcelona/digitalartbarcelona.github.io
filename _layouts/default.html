@@ -34,6 +34,8 @@ layout: compress
         <h2 class="text-center">{{ page.subsubtitle }}</h2>
         <h3 class="text-center">{{ page.subsubsubtitle }}</h3>
       </div>
+      {% include teaser.html %}
+      {% include map-places.html %}
       {% endif %}
 
       <div class="container {% if page.title == 'Home' %}donatius{% endif %} content">

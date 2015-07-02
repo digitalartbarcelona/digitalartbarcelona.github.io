@@ -515,7 +515,9 @@ footer
   margin-right: 0;
   color: #ffffff;
  }
-
+ .home-title+section.teaser {
+  margin-top: -1rem;
+ }
 .page,
 .post {
   margin-bottom: 4em;
@@ -629,6 +631,7 @@ footer
 .embed-container_3-1 {
   padding-bottom: 33.33%; 
 }
+.embed-container video, 
 .embed-container iframe, 
 .embed-container object, 
 .embed-container embed,
