@@ -169,6 +169,16 @@ div.item p input.item_Quantity {
     margin-left: -4rem;
   }
 }
+google-map {
+        display: block;
+        height: 30em;
+      }
+
+@media(min-width:767px) {
+  google-map {
+        height: 40em;
+      }
+}
 
 /*
  * Wrapper
@@ -635,7 +645,7 @@ footer
 .embed-container iframe, 
 .embed-container object, 
 .embed-container embed,
-.embed-container .core-image-size { 
+.embed-container .iron-image-size { 
     position: absolute; 
     top: 0; 
     left: 0; 

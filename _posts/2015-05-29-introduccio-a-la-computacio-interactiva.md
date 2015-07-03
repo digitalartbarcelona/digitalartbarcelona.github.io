@@ -13,7 +13,7 @@ og-type: article
 {% assign taller = taller_data | first %}
 <figure class="no-margin margin-bottom-1">
     <div class="embed-container embed-container_{{ taller.aspect_ratio }}">
-      <core-image sizing="cover" class="core-image-size" preload fade src="/public/img/tallers/{{ taller.featured_src }}"></core-image> 
+      <iron-image sizing="cover" class="iron-image-size" preload fade src="/public/img/tallers/{{ taller.featured_src }}"></iron-image> 
     </div>
     <div class="padding-arttaller-container">
         <p><small>Del <strong>{{ taller.startDate | date_to_string }}</strong> al <strong>{{ taller.endDate | date_to_string }}</strong><br/>

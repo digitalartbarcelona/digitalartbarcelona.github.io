@@ -1,33 +1,7 @@
-  <link rel="import"
-      href="/bower_components/google-map/google-map.html">
-  <link rel="import"
-      href="/bower_components/core-image/core-image.min.html">
-   <style>
-     google-map {
-        display: block;
-        height: 30em;
-      }
-    </style>
-  <!-- Google fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
 <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="/styles/main.css">
-<!--
-Font Artinpocket Medium
-=============================
-
-Font creada per Artipocket.cat, sota llicència GPV V3. Una font per a tots els amants de l'art.
--->
 <link href='/font-artinpocket/dist/stylesheet.min.css' rel='stylesheet' type='text/css'>
-<!-- javascript -->
-<script type="text/javascript" src="/public/js/jquery-2.1.0.min.js" async></script>
-<script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js" async></script>
-<script>
-document.createElement( "picture" );
-</script>
-<script src="/vendor/picturefill/dist/picturefill.min.js" async></script>
-<script type="text/javascript" src="/public/js/plugins.js" async></script>
-<script type="text/javascript" src="/public/js/countdown.js" async></script>
 
 {% if page.registratitonID == '1' %}
 <script type='text/javascript'>
@@ -81,19 +55,6 @@ document.createElement( "picture" );
   });
 </script>
 {% endif %}
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-46558953-4', 'auto');
-ga('send', 'pageview');
-
-</script>
-
-<script src='https://cdn.goroost.com/roostjs/mtdjccewa0gxsdm4wogssfn55mrlhbxm' async></script>
 
 {% if page.class == 'tallers' %}
   {% assign taller_data = site.data.activitats.tallers | where:"id", page.taller %}

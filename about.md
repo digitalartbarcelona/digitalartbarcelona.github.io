@@ -6,7 +6,7 @@ published: true
 
 <figure class="no-margin margin-bottom-1">
     <div class="embed-container embed-container_9-16">
-      <core-image sizing="cover" class="core-image-size" preload fade src="/public/img/2-nd-simultaneous-digital-art-show-flyer-2015.jpg"></core-image> 
+    	<iron-image sizing="cover" class="iron-image-size" preload fade src="/public/img/2-nd-simultaneous-digital-art-show-flyer-2015.jpg"></iron-image> 
     </div>
 	<figcaption>
 		<p><small><strong>MAD Barcelona - II Mostra Simultània d'Art Digital</strong></small></p>
