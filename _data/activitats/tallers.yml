@@ -303,3 +303,31 @@
   description: "Et presentem un innovador Taller d'Introducció a la creació d'entorns en Realitat Virtual immersiva, en el qual podràs realitzar el teu primer projecte bàsic de creació de VR, de manera guiada i pas a pas, utilitzant un dels principals programaris de programació destinats per a tal fi: Unity 3D (versió 5)."
   description-es: "Te presentamos un inovador Taller de Introducción a la creación de entornos en Realiad Virtual inmersiva, en el que podrás realizar tu primer proyecto básico de creación de VR, de manera guiada y paso a paso, utilizando uno de los principales softwares de programación destinados a tal fin: Unity 3D (version 5)."
   featured_src: realitat-virtual-vr-introduccio-a-la-creacio-d-entorns-en-realitat-virtual-vr-amb-unity-3d.jpg
+- context: "http://schema.org"
+  id: 11
+  aspect_ratio: 16-9
+  type: "EducationEvent"
+  location: 
+    type: "EventVenue"
+    name: "Convent de Sant Agustí"
+    address: "Carrer del Comerç, 36, 08003 Barcelona"
+    googleMap: "https://www.google.cat/maps/dir//Carrer+del+Comerç,+36,+08003+Barcelona,+Espanya/"
+  name: "Taller Canon. L'Art d'imprimir en color"
+  offers: 
+    type: "Offer"
+    url: "http://conventagusti.com/contacte/"
+    price: "0"
+    priceCurrency: "Euro"
+    availability: "http://schema.org/InStock"
+  performer: 
+    - 
+      type: "Person"
+      jobTitle: "Product Manager"
+      name: "Albert Ferré"
+      sameAs: "https://es.linkedin.com/pub/albert-ferre-gonzalez/23/986/a2a"
+  startDate: "2015-07-14T11:00"
+  endDate: "2015-07-14T14:00"
+  timetable: "Dimarts 14 de 11 a 14h"
+  description: "El contingut estarà basat en: ·Característiques de lsa tecnologies d'impressió fotogràfica inkjet Cànon. - Importància dels suports en el món de la impressió. - Impressió d'obres digitals"
+  description-es: "El contenido estará basado en: · Características de lsa tecnologías de impresión fotográfica inkjet Canon. - Importancia de los apoyos en el mundo de la impresión. - Impresión de obras digitales"
+  featured_src: taller-canon.-l-art-d-imprimir-en-color.jpg
