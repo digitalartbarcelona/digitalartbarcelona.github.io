@@ -25,6 +25,9 @@
       var elements = [
         '/bower_components/google-map/google-map.html',
         '/bower_components/iron-image/iron-image.html',
+        '/bower_components/platinum-sw/platinum-sw-register.html',
+        '/bower_components/platinum-sw/platinum-sw-cache.html',
+        '/bower_components/paper-toast/paper-toast.html',
         '/public/js/import-css-js.html'
       ];
 
