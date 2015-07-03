@@ -8,7 +8,6 @@ layout: compress
   {% include head.html %}
 
   <body unresolved class="theme-base-0a {% if page.category == 'mur' %}mur{% endif %}{% if page.category == 'mur-diari' or page.title == 'Aportacions' %}mur-diari{% endif %}{% if page.class == 'artwork' %}artwork{% endif %} {% if page.title == 'Home' %}home{% endif %}">
-  <digital-default></digital-default>
     {% include sidebar.html %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
@@ -159,6 +158,10 @@ layout: compress
         {% include footer-sitemap.html %}
       </div>
     </footer>
+      
+      {% for place in site.data.artinpocketplaces | where:"id", 1 %}
+      <div class="address"><p class="text-center"><small><strong><i class="fa fa-map-marker"></i> </strong> {{ place.address }} - <strong><i class="fa fa-phone"></i> </strong> <a href="tel:{{ place.phone }}">{{ place.phone }}</a> - <a href="{{ place.url }}" title="{{ place.name }}" rel="external"><i class="fa fa-external-link"></i></a> | <a href="https://twitter.com/{{ place.twitter }}" title="@{{ place.twitter }}" rel="external"><i class="fa fa-twitter"></i></a> | <a href="{{ place.facebook }}" title="{{ place.name }} en Facebook" rel="external"><i class="fa fa-facebook"></i></a> | <a href="mailto:{{ place.email }}" title="Correo-e {{ place.email }}" rel="external"><i class="fa fa-envelope"></i></a></small></p></div>
+      {% endfor %}
 
     <script src="/public/js/app2.js"></script>
     

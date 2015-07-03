@@ -193,11 +193,10 @@ google-map {
   width: 100%;
 }
 
-.address {
+.wrap .address {
   display: none;
 }
-@media (min-width: 38rem) {
- .address {
+.address {
   background: black;
   border-bottom: 1px dashed;
   display: block;
@@ -215,6 +214,11 @@ google-map {
  .address a:hover {
   color: #eeeeee;
  }
+
+@media (min-width: 38rem) {
+ .wrap .address {
+  display: block;
+}
  .address p small {
   font-size: 55%;
  }
