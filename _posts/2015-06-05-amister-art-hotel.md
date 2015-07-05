@@ -4,6 +4,9 @@ title: Amister Art hotel SERCOHOTEL
 category: place
 share: true
 class: 'places'
+og: true
+og-type: place
+place: 3
 ---
 
 <figure class="text-center">
@@ -24,7 +27,9 @@ class: 'places'
 {% for place in site.data.places limit:1 offset:2 %}
 <div class="row">
 	<div class="col-sm-6">
-		<p><a href="{{ place.url }}" title="{{ place.name }}"><img src="/public/img/{{ place.img }}" alt="{{ place.name}} - exhibidors de barcelona digital art" title="{{ place.name }} - exhibidors de barcelona digital art"></a></p>
+		<div class="embed-container embed-container_16-9">
+			<a href="{{ place.url }}" title="{{ place.name }}"><iron-image sizing="cover" class="iron-image-size" preload fade src="/public/img/{{ place.img }}" title="{{ place.name }} - exhibidors de barcelona digital art"></iron-image></a>
+		</div>
 	</div>
 	<div class="col-sm-6">
 		<p>{{ place.description }}</p>

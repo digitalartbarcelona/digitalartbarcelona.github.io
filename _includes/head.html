@@ -47,6 +47,21 @@
           <meta name="twitter:description" content="{{ taller.description | strip_html | strip_newlines | truncate: 160 }}">
           <meta name="twitter:image:src" content="{{ site.url }}/public/img/tallers/{{ taller.featured_src }}">
       {% endif %}
+      {% if page.category == 'place' %}
+          {% assign place_data = site.data.places | where:"id", page.place %}
+          {% assign place = place_data | first %}
+          <meta property="og:image" content="{{ site.url }}/public/img/{{ place.img }}" />
+          <meta property="og:description" content="{{ place.description | strip_html | strip_newlines | truncate: 160 }}" />
+          <meta property="place:location:latitude" content="{{ place.latitude }}" />
+          <meta property="place:location:longitude" content="{{ place.longitude }}" />
+
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:site" content="@{{ site.twitter }}">
+          <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
+          <meta name="twitter:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }}">
+          <meta name="twitter:description" content="{{ place.description | strip_html | strip_newlines | truncate: 160 }}">
+          <meta name="twitter:image:src" content="{{ site.url }}/public/img/{{ place.img }}">
+      {% endif %}
       {% if page.category == 'videos' %}
           {% assign video_data = site.data.videos | where:"id", page.video %}
           {% assign video = video_data | first %}
@@ -75,7 +90,7 @@
           <meta name="twitter:player:stream:content_type" content="{{ video.codec-mp4 }}">
 
       {% endif %}
-      {% if page.class == '' or page.class == 'places' %}
+      {% if page.class == '' %}
           <meta property="og:image" content="{{ site.url }}/public/img/2-nd-simultaneous-digital-art-show-banner-og-2015.jpg" />
           <meta property="og:description" content="The 2nd exhibition of digital art in Barcelona is presented as a simultaneous exhibition in spaces and buildings of the city. The show was created with the aim of discovering and experimenting with digital art in environments outside the traditional art exhibition circuit" />
 
