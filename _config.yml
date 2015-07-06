@@ -62,9 +62,9 @@ patrocina:
     id: 5
 
 colabora:
-  sercohotel:
-    description: "SERCOHOTEL Hotels - col·laboradors de barcelona digital art"
-    logo: "sercohotel-organitzadors-barcelona-digital-art-footer.jpg"
+  SERCOTEL:
+    description: "SERCOTEL Hotels - col·laboradors de barcelona digital art"
+    logo: "SERCOTEL-organitzadors-barcelona-digital-art-footer.jpg"
   gencat:
     description: "Generalitat de Catalunya, Departament de Cultura - col·laboradors de barcelona digital art"
     logo: "generalitat-de-catalunya-organitzadors-barcelona-digital-art-footer.jpg"
@@ -90,7 +90,7 @@ participa:
     description: "NAUART Espacio de creación - participants de barcelona digital art"
     logo: nauart-organitzadors-barcelona-digital-art-footer.jpg
   amister:
-    description: "SERCOHOTEL Amister - participants de barcelona digital art"
+    description: "SERCOTEL Amister - participants de barcelona digital art"
     logo: amister-organitzadors-barcelona-digital-art-footer.jpg
   toc:
     description: "TOC Hostel & Suites - participants de barcelona digital art"

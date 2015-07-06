@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Amister Art hotel SERCOHOTEL
+title: Amister Art hotel SERCOTEL
 category: place
 share: true
 class: 'places'
