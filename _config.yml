@@ -62,9 +62,9 @@ patrocina:
     id: 5
 
 colabora:
-  SERCOTEL:
+  sercotel:
     description: "SERCOTEL Hotels - col·laboradors de barcelona digital art"
-    logo: "SERCOTEL-organitzadors-barcelona-digital-art-footer.jpg"
+    logo: "sercotel-organitzadors-barcelona-digital-art-footer.jpg"
   gencat:
     description: "Generalitat de Catalunya, Departament de Cultura - col·laboradors de barcelona digital art"
     logo: "generalitat-de-catalunya-organitzadors-barcelona-digital-art-footer.jpg"
