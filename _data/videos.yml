@@ -11,3 +11,4 @@
   height: 1280
   codec-mp4: video/mp4
   codec-webm: video/webm
+  video-container: /teaser-container/
