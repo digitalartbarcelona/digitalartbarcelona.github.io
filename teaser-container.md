@@ -1,17 +1,5 @@
 ---
-layout: null
+layout: video-card-container
 ---
 
-<html>
-<body>
-
-<style type="text/css">
-video {  
-   width:100%; 
-   max-width:100%; 
-   height:auto; 
-}
-</style>
 {% include teaser.html %}
-</body>
-</html>
