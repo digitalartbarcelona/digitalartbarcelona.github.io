@@ -371,3 +371,37 @@
   description: "jam sessió, música en live + ball + Kinect i QuartzComposer, un instant màgic."
   description-es: "jam sesión, música en live + baile + Kinect y QuartzComposer, un instante mágico."
   featured_src: kinect-experiments-performance-amb-nauart.jpg
+- context: "http://schema.org"
+  id: 13
+  aspect_ratio: 16-9
+  type: "EducationEvent"
+  location: 
+    type: "EventVenue"
+    name: "Amister Art Hotel SERCOTEL"
+    address: "Avinguda Roma, 93 08029 Barcelona"
+    googleMap: "https://www.google.com/maps/dir//Avinguda+de+Roma,+93,+08029+Barcelona,+Espanya/"
+  name: "Conferència Hotel Amister - Unicitat de les obres per a la normalització en el consum i creació d'Art en format digital"
+  offers: 
+    type: "Offer"
+    url: "hhttp://www.amisterhotel.com/contacto.htm"
+    price: "0"
+    priceCurrency: "Euro"
+    availability: "http://schema.org/InStock"
+  performer: 
+    - 
+      type: "Person"
+      jobTitle: "Directo"
+      name: "Pep Lluís de la Rosa"
+      sameAs: "https://www.linkedin.com/in/peplluis"
+    - 
+      type: "Person"
+      jobTitle: "CTO"
+      name: "Ramon Gil i Paredes"
+      sameAs: "https://www.linkedin.com/in/ramongilparedes"
+  startDate: "2015-07-16T19:00"
+  endDate: "2015-07-16T21:00"
+  timetable: "Dijous 16 de 7 a 9 del vespre"
+  description: "Unicitat és una forma de verificar que les imatges digitals són úniques, i que són propietat de la persona que diu que ells posseeixen. En la conferència es presentarà la tecnologia desarroyada per EASY Innova i Artinpocket que permet als artistes i col·leccionistes donar valor d'unicitat a les obres creades en format digital per poder compartir i mostrar una peça comprada sense la preocupació que es devaluï quan es copia la imatge"
+  description-es: "Unicidad es una forma de verificar que las imágenes digitales son únicas, y que son propiedad de la persona que dice que ellos poseen. En la conferencia se presentará la tecnología desarroyada para EASY Innova y Artinpocket que permite a los artistas y coleccionistas dar valor de unicidad a las obras creadas en formato digital para poder compartir y mostrar una pieza comprada sin la preocupación de que se devalúe cuando se copia la imagen."
+  featured_src: unicitat-de-les-obres-per-a-la-normalitzacio-en-el-consum-i-creacio-d-art-en-format-digital.jpg
+

@@ -7,14 +7,16 @@ og: true
 og-type: article
 ---
 
+##(... i activitats paral·leles)
+
 <div class="posts">
   {% for post in site.categories['tallers'] reversed %}
   <div class="post">
-  <h2 class="post-title">
+  <h3 class="post-title">
     <a href="{{ post.url }}">
       {{ post.title }}
     </a>
-    </h2>
+    </h3>
     {{ post.excerpt }}
   </div>
   {% endfor %}
