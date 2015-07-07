@@ -333,3 +333,41 @@
   description: "El contingut estarà basat en: ·Característiques de lsa tecnologies d'impressió fotogràfica inkjet Cànon. - Importància dels suports en el món de la impressió. - Impressió d'obres digitals"
   description-es: "El contenido estará basado en: · Características de lsa tecnologías de impresión fotográfica inkjet Canon. - Importancia de los apoyos en el mundo de la impresión. - Impresión de obras digitales"
   featured_src: taller-canon-l-art-d-imprimir-en-color.jpg
+- context: "http://schema.org"
+  id: 12
+  aspect_ratio: 16-9
+  type: "EducationEvent"
+  location: 
+    type: "EventVenue"
+    name: "NAUART - Espacio de creación"
+    address: "Carrer d'Espronceda, 154 08018, Barcelona"
+    googleMap: "https://www.google.com/maps/dir//Carrer+d'Espronceda,+154,+08018+Barcelona,+Espanya/"
+  name: "Kinect Experiments. Performance amb NAUart"
+  offers: 
+    type: "Offer"
+    url: "http://www.bcnproglab.es/contact/"
+    price: "0"
+    priceCurrency: "Euro"
+    availability: "http://schema.org/InStock"
+  performer: 
+    - 
+      type: "Person"
+      jobTitle: "Enginyer informàtic"
+      name: "Alexandre Dupuis"
+      sameAs: "http://www.bcnproglab.es/alexandre-dupuis/"
+    - 
+      type: "Person"
+      jobTitle: "Tècnic audiovisual i artista multimèdia"
+      name: "Gerard Domínguez"
+      sameAs: "http://www.bcnproglab.es/gerard-dominguez/"
+    - 
+      type: "Person"
+      jobTitle: "Dissenyador audiovisual"
+      name: "Marc Rodríguez"
+      sameAs: "http://www.bcnproglab.es/marc-rodriguez/"
+  startDate: "2015-07-15T20:00"
+  endDate: "2015-07-15T22:00"
+  timetable: "Dimecres 15 de 8 a 10 del vespre"
+  description: "jam sessió, música en live + ball + Kinect i QuartzComposer, un instant màgic."
+  description-es: "jam sesión, música en live + baile + Kinect y QuartzComposer, un instante mágico."
+  featured_src: kinect-experiments-performance-amb-nauart.jpg
