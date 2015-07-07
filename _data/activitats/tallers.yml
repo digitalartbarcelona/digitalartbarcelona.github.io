@@ -183,6 +183,7 @@
   timetable: "Dilluns i dimecres de 19 a 21.30h"
   description: "1. Conceptes bàsics d’imatge digital i formats d’arxius. 2. Inteface, eines i dades del teclat. 3. Eines de selecció. 4. Ajustaments d’imatge(curves, nivells, equilibri de color etc...). 5. Accions en Photoshop. 6. Treballar amb Text. 7. Treballar amb capes, modes de fusió i propietats de les capes. 8. Eines per a retocar retrats i paisatge. 9. HDR. 10. Photomerge (panografia). 11. Eliminar ulls vermells. 12. Eina de liquatge. 13. Animar capes de Photoshop"
   description-es: "1.Conceptos básicos de imagen digital y formatos de archivos. 2. Interfaz, herramientas y datos del teclado. 3. Herramientas de selección. 4 Ajsutes de imagen (curvas, niveles, equilibrio de color, etc...). 5. Acciones en Photshop. 6. Trabajar con Texto. 7. Trabajar con capas, modos de fusión y propiedades de las capas. 8. Herramientas para retocar retratos y paisaje. 9 . HDR. 10. Photomerge (panografía). 11. Eliminar ojos rojos. 12. Herramienta de licuar. 13. Animar capas de Photoshop."
+  featured_src: photoshop-per-a-artistes.jpg
 - context: "http://schema.org"
   id: 7
   aspect_ratio: 16-9
@@ -209,6 +210,7 @@
   timetable: "Dimarts i dijous de 10 a 13h"
   description: "1. Conceptes bàsics de video digital, formats i còdex. Interface d’after affects. 2. Importar arxius. Crear composicions. Conceptes bàsics d’animació. 3. Efectes i ajustaments preestablerts. Animar efectes. Màscares. 4. Capes. Modes de fusió. Remapeig del temps. Ampliació del temps. Barreja de fotogrames. 5. Exportació. Cua de processament."
   description-es: "1.Conceptos básicos de vídeo digital, formatos y códex. Interfaz de after effects. 2. Importar archivos. Crear composiciones. Conceptos básicos de animación. 3. Efectos y ajustes preestablecidos. Animar efectos. Máscaras. 4. Capas. Modos de fusión. Remapeo del tiempo. Ampliación del tiempo. Mezcla de fotogramas. 5. Exportación. Cola de procesamiento."
+  featured_src: after-effects.jpg
 - context: "http://schema.org"
   id: 8
   aspect_ratio: 16-9
