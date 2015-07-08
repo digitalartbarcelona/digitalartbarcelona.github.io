@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kinect Experiments. Performance amb NAUart"
+title: "Generative Screen Dance. Performance amb NAUart"
 category: tallers
 share: true
 class: tallers
