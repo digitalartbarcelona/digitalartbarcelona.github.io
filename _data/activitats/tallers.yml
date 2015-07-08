@@ -342,7 +342,7 @@
     name: "NAUART - Espacio de creación"
     address: "Carrer d'Espronceda, 154 08018, Barcelona"
     googleMap: "https://www.google.com/maps/dir//Carrer+d'Espronceda,+154,+08018+Barcelona,+Espanya/"
-  name: "Kinect Experiments. Performance amb NAUart"
+  name: "Generative Screen Dance. Performance amb NAUart"
   offers: 
     type: "Offer"
     url: "http://www.bcnproglab.es/contact/"
@@ -401,7 +401,7 @@
   startDate: "2015-07-16T19:00"
   endDate: "2015-07-16T21:00"
   timetable: "Dijous 16 de 7 a 9 del vespre"
-  description: "Unicitat és una forma de verificar que les imatges digitals són úniques, i que són propietat de la persona que diu que ells posseeixen. En la conferència es presentarà la tecnologia desarroyada per EASY Innova i Artinpocket que permet als artistes i col·leccionistes donar valor d'unicitat a les obres creades en format digital per poder compartir i mostrar una peça comprada sense la preocupació que es devaluï quan es copia la imatge"
-  description-es: "Unicidad es una forma de verificar que las imágenes digitales son únicas, y que son propiedad de la persona que dice que ellos poseen. En la conferencia se presentará la tecnología desarroyada para EASY Innova y Artinpocket que permite a los artistas y coleccionistas dar valor de unicidad a las obras creadas en formato digital para poder compartir y mostrar una pieza comprada sin la preocupación de que se devalúe cuando se copia la imagen."
+  description: "Conferència a l'Amister Art Hotel SERCOTEL sobre la unicitat de les obres d'art digitals. La unicitat és una forma de verificar que les imatges digitals són úniques, i que són propietat de la persona que diu que ells posseeixen. En la conferència es presentarà la tecnologia desarroyada per EASY Innova i Artinpocket que permet als artistes i col·leccionistes donar valor d'unicitat a les obres creades en format digital per poder compartir i mostrar una peça comprada sense la preocupació que es devaluï quan es copia la imatge"
+  description-es: "Conferencia en el Amister ARt Hotel SERCOTEL sobre la unicidad de las obras de arte digitales. La unicidad es una forma de verificar que las imágenes digitales son únicas, y que son propiedad de la persona que dice que ellos poseen. En la conferencia se presentará la tecnología desarroyada para EASY Innova y Artinpocket que permite a los artistas y coleccionistas dar valor de unicidad a las obras creadas en formato digital para poder compartir y mostrar una pieza comprada sin la preocupación de que se devalúe cuando se copia la imagen."
   featured_src: unicitat-de-les-obres-per-a-la-normalitzacio-en-el-consum-i-creacio-d-art-en-format-digital.jpg
 

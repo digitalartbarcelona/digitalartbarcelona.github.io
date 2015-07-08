@@ -10,7 +10,7 @@ og-type: article
 ##(... i activitats paral·leles)
 
 <div class="posts">
-  {% for post in site.categories['tallers'] reversed %}
+  {% for post in site.categories['tallers'] %}
   <div class="post">
   <h3 class="post-title">
     <a href="{{ post.url }}">
