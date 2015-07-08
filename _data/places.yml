@@ -88,6 +88,7 @@
   screening-en: "From 10 p.m. to 12 a.m."
   latitude:	41.3798454
   longitude:	2.1726976
+  getdirections: "https://www.google.com/maps/dir//Carrer+de+Sant+Pau,+11,+08001+Barcelona,+Espanya/"
   logo:	alaire-ramblas-terrace-place-digital-art-barcelona.jpg
   img: 01-terrassa-alaire-mad-2015.jpg
   description: "La terrassa ALAIRE RAMBLAS, situada a l'última planta de l'Hotel Espanya, és l'espai ideal per divertir-se a l'estiu, amb una decoració contemporània, actual i elegant, que convida a la conversa i al relaxament."
