@@ -36,3 +36,5 @@ og-type: article
 <p><strong>{{ taller.description }}</strong></p>
 <hr/>
 <p><em>{{ taller.description-es }}</em></p>
+<hr/>
+<p>{{ taller.description-en }}</p>
