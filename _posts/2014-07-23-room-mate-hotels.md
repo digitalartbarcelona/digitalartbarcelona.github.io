@@ -6,6 +6,8 @@ share: true
 og: true
 og-type: place
 place: 4
+class: videos
+video: 2
 ---
 
 <figure class="text-center">
