@@ -12,3 +12,17 @@
   codec-mp4: video/mp4
   codec-webm: video/webm
   video-container: /teaser-container/
+- id: 2
+  aspect-ratio: 16-9
+  source-mp4: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-room-mate-teaser.mp4
+  source-webm: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-room-mate-teaser.webm
+  poster: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-room-mate-teaser.png
+  title: "Teaser Roommate MAD Barcelona 2015."
+  description: "Teaser de la MAD Barcelona 2015 al Roommate Hotel. La Segona Mostra Simultània d'Art Digital que es celebra a Barcelona del 8 al 15 de juliol."
+  description-es: "Teaser de la MAD Barcelona 2015 en el Roommate Hotel.  La Segunda Muestra Simultánea de Arte Digital que se celebra en Barcelona del 8 al 15 de julio."
+  description-en: "Ad on 'MAD Barcelona 2015' in the Roommate Hotel. The Second Simultaneous Digital Art Show held in Barcelona from 8th to 15th July."
+  width: 1024
+  height: 576
+  codec-mp4: video/mp4
+  codec-webm: video/webm
+  video-container: /teaser-roommate/

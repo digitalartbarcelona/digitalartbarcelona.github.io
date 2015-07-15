@@ -1,5 +1,4 @@
 ---
 layout: video-card-container
+video: 1
 ---
-
-{% include teaser.html %}
