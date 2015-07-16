@@ -19,7 +19,7 @@ og-type: video
         </video>
     </div>
     <figcaption>
-      <p><small><strong>{{ video.title }}</strong></small>. <small class="label label-info">Mostra Completa a / Muestra complete en / Full shot at: <a href="/place/2015/06/17/restarurant-balmes-rossello/">Restaurant Balmes Rosselló</a></small></p>
+      <p><small><strong>{{ video.title }}</strong>. Mostra Completa a / Muestra complete en / Full show at: <span class="label label-info"><a href="/place/2015/06/17/restarurant-balmes-rossello/">Restaurant Balmes Rosselló</a></span></small></p>
     </figcaption>
 </figure>
 

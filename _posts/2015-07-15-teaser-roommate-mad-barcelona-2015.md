@@ -19,7 +19,7 @@ og-type: video
         </video>
     </div>
     <figcaption>
-      <p><small><strong>{{ video.title }}</strong></small>. <small class="label label-info">Mostra Completa a / Muestra complete en / Full shot at: <a href="/place/2014/07/23/room-mate-hotels/">Room Mate Hotel</a></small></p>
+      <p><small><strong>{{ video.title }}</strong>. Mostra Completa a / Muestra complete en / Full show at: <span class="label label-info"><a href="/place/2014/07/23/room-mate-hotels/">Room Mate Hotel</a></span></small></p>
     </figcaption>
 </figure>
 
