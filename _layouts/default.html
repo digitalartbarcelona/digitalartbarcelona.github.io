@@ -35,7 +35,7 @@ layout: compress
       </div>
       {% include teaser.html %}
       {% include map-places.html %}
-      {% include flyer.html %}
+      <div class="container">{% include flyer.html %}</div>
       {% endif %}
 
       <div class="container {% if page.title == 'Home' %}donatius{% endif %} content">
