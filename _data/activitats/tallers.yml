@@ -390,7 +390,7 @@
   performer: 
     - 
       type: "Person"
-      jobTitle: "Directo"
+      jobTitle: "Director"
       name: "Pep Lluís de la Rosa"
       sameAs: "https://www.linkedin.com/in/peplluis"
     - 
@@ -405,4 +405,7 @@
   description-es: "Conferencia en el Amister Art Hotel SERCOTEL sobre la unicidad de las obras de arte digitales. La unicidad es una forma de verificar que las imágenes digitales son únicas, y que son propiedad de la persona que dice que ellos poseen. En la conferencia se presentará la tecnología desarrollada para EASY Innova y Artinpocket que permite a los artistas y coleccionistas dar valor de unicidad a las obras creadas en formato digital para poder compartir y mostrar una pieza comprada sin la preocupación de que se devalúe cuando se copia la imagen."
   description-en: "Conference on 'Amister Art Hotel SERCOTEL' about the uniqueness of digital artworks. Uniqueness is a way to verify that digital images are unique and that are owned by the person who says that they have. The conference will present the technology developed for EASY Innova and Artinpocket that allows artists and collectors give uniqueness value to works created in digital format in order to share and show a purchased artwork without the concern of being devalued when the image is copied."
   featured_src: unicitat-de-les-obres-per-a-la-normalitzacio-en-el-consum-i-creacio-d-art-en-format-digital.jpg
+  01-gallery_src: 01-gallery-unicitat-de-les-obres-per-a-la-normalitzacio-en-el-consum-i-creacio-d-art-en-format-digital.jpg
+  02-gallery_src: 02-gallery-unicitat-de-les-obres-per-a-la-normalitzacio-en-el-consum-i-creacio-d-art-en-format-digital.jpg
+  03-gallery_src: 03-gallery-unicitat-de-les-obres-per-a-la-normalitzacio-en-el-consum-i-creacio-d-art-en-format-digital.jpg
 

@@ -33,8 +33,33 @@ og-type: article
 
 <!--more-->
 
-<p><strong>{{ taller.description }}</strong></p>
-<hr/>
-<p><em>{{ taller.description-es }}</em></p>
-<hr/>
-<p>{{ taller.description-en }}</p>
+<div class="row">
+    <div class="col-md-6">
+        <p><img class="img-responsive img-rounded" src="/public/img/tallers/{{ taller.01-gallery_src }}" alt="{{ taller.name }}"></p>
+    </div>
+    <div class="col-md-6">
+        <p><strong>{{ taller.description }}</strong></p>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <p>{{ taller.description-es }}</p>
+    </div>
+    <div class="col-md-6">
+        <p><img class="img-responsive img-rounded" src="/public/img/tallers/{{ taller.02-gallery_src }}" alt="{{ taller.name }}"></p>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <p><img class="img-responsive img-rounded" src="/public/img/tallers/{{ taller.03-gallery_src }}" alt="{{ taller.name }}"></p>
+    </div>
+    <div class="col-md-6">
+        <p><em>{{ taller.description-en }}</em></p>
+    </div>
+</div>
