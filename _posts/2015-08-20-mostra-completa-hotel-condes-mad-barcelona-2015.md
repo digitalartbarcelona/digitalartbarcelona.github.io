@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mostra Completa Hotel Condes MAD Barcelona 2015"
+title: "Mostra Completa Hotel Espanya MAD Barcelona 2015"
 category: videos
 share: true
 class: videos
