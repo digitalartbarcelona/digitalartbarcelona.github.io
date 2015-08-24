@@ -110,7 +110,11 @@
     "@context": "{{ video.context }}",
     "@type": "{{ video.type }}",
     "name": "{{ video.title }}",
-    "@id": "{{ site.url }}{{ video.video-container }}",
+    "description": "{{ video.description }}",
+    "embedUrl": "{{ site.url }}/{{ video.video-container }}",
+    "contentUrl": "{{ site.url }}/public/video/{{ video.source-webm }}",
+    "thumbnailUrl": "{{ site.url }}/public/video/{{ video.poster }}",
+    "@id": "{{ site.url }}{{ page.url }}",
     "datePublished": "{{ video.dataPublished }}",
     "author": {
       "@type": "Organization",
