@@ -101,3 +101,21 @@
   }
   </script>
 {% endif %}
+
+{% if page.class == 'videos' %}
+  {% assign video_data = site.data.videos | where:"id", page.video %}
+  {% assign video = video_data | first %}
+  <script type="application/ld+json">
+  {
+    "@context": "{{ video.context }}",
+    "@type": "{{ video.type }}",
+    "name": "{{ video.title }}",
+    "@id": "{{ site.url }}{{ video.video-container }}",
+    "datePublished": "{{ video.dataPublished }}",
+    "author": {
+      "@type": "Organization",
+      "name": "Artinpocket"
+    }
+  }  
+  </script>
+{% endif %}

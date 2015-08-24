@@ -12,6 +12,9 @@
   codec-mp4: video/mp4
   codec-webm: video/webm
   video-container: /teaser-container/
+  type: "VideoObject"
+  context: "http://schema.org"
+  dataPublished: "2015-07-02"
 - id: 2
   aspect-ratio: 16-9
   source-mp4: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-room-mate-teaser.mp4
@@ -26,6 +29,9 @@
   codec-mp4: video/mp4
   codec-webm: video/webm
   video-container: /teaser-roommate/
+  type: "VideoObject"
+  context: "http://schema.org"
+  dataPublished: "2015-07-15"
 - id: 3
   aspect-ratio: 16-9
   source-mp4: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-balmes-rossello-teaser.mp4
@@ -40,6 +46,9 @@
   codec-mp4: video/mp4
   codec-webm: video/webm
   video-container: /teaser-balmes-rossello/
+  type: "VideoObject"
+  context: "http://schema.org"
+  dataPublished: "2015-07-16"
 - id: 4
   aspect-ratio: 16-9
   source-mp4: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-hotel-condes.mp4
@@ -54,6 +63,9 @@
   codec-mp4: video/mp4
   codec-webm: video/webm
   video-container: /mostra-hotel-condes/
+  type: "VideoObject"
+  context: "http://schema.org"
+  dataPublished: "2015-08-20"
 - id: 5
   aspect-ratio: 16-9
   source-mp4: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-gorilla-bar.mp4
@@ -68,3 +80,6 @@
   codec-mp4: video/mp4
   codec-webm: video/webm
   video-container: /mostra-gorilla-bar/
+  type: "VideoObject"
+  context: "http://schema.org"
+  dataPublished: "2015-07-24"
