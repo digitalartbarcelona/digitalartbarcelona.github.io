@@ -83,3 +83,20 @@
   type: "VideoObject"
   context: "http://schema.org"
   dataPublished: "2015-07-24"
+- id: 6
+  aspect-ratio: 16-9
+  source-mp4: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-toc-hostels-01.mp4
+  source-webm: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-toc-hostels-01.webm
+  poster: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-toc-hostels-01.png
+  title: "Mostra Completa TOC Hostels MAD Barcelona 2015 (I)."
+  description: "Mostra Completa de la MAD Barcelona 2015 al TOC Hostels (primera part). La Segona Mostra Simultània d'Art Digital que es va celebrar a Barcelona del 8 al 15 de juliol."
+  description-es: "Muestra Completa de la MAD Barcelona 2015 en el TOC Hostels (primera parte). La Segunda Muestra Simultánea de Arte Digital que se celebró en Barcelona del 8 al 15 de julio."
+  description-en: "Full show on 'MAD Barcelona 2015' in the TOC Hostels (first part). The Second Simultaneous Digital Art Show held in Barcelona from 8th to 15th July."
+  width: 1024
+  height: 576
+  codec-mp4: video/mp4
+  codec-webm: video/webm
+  video-container: /mostra-toc-hostels/
+  type: "VideoObject"
+  context: "http://schema.org"
+  dataPublished: "2015-07-25"
