@@ -3,6 +3,8 @@
   "short_name": "MAD Barcelona",
   "start_url": "/index.html?homescreen=1",
   "display": "standalone",
+  "background_color": "#A24C41",
+  "theme_color": "#A24C41",
   "icons": [{
     "src": "/public/img/touch/icon-128x128.png",
     "sizes": "128x128",
