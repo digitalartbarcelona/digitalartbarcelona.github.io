@@ -168,3 +168,20 @@
   type: "VideoObject"
   context: "http://schema.org"
   dataPublished: "2015-07-31"
+- id: 11
+  aspect-ratio: 16-9
+  source-mp4: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-amister-01.mp4
+  source-webm: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-amister-01.webm
+  poster: mad-barcelona-2015-segona-mostra-simultania-d-art-digital-amister-01.png
+  title: "Mostra Completa Amister MAD Barcelona 2015."
+  description: "Mostra Completa de la MAD Barcelona 2015 a l'Amister. La Segona Mostra Simultània d'Art Digital que es va celebrar a Barcelona del 8 al 15 de juliol."
+  description-es: "Muestra Completa de la MAD Barcelona 2015 en el Amister. La Segunda Muestra Simultánea de Arte Digital que se celebró en Barcelona del 8 al 15 de julio."
+  description-en: "Full show on 'MAD Barcelona 2015' in the Amister. The Second Simultaneous Digital Art Show held in Barcelona from 8th to 15th July."
+  width: 1024
+  height: 576
+  codec-mp4: video/mp4
+  codec-webm: video/webm
+  video-container: /mostra-amister/
+  type: "VideoObject"
+  context: "http://schema.org"
+  dataPublished: "2015-09-16"
