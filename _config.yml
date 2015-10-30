@@ -26,6 +26,7 @@ author:
 
 endDate: '2015-06-21T23:59:00+02:00'
 
+gems: [jekyll-paginate]
 paginate:         8
 paginate_path:    "blog/page:num"
 
