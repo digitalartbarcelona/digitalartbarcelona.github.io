@@ -1,4 +1,3 @@
-<!doctype html>
 <!--
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
@@ -8,19 +7,36 @@ The complete set of contributors may be found at http://polymer.github.io/CONTRI
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
-<html>
-<head>
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../iron-fit-behavior.html">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<dom-module id="test-fit">
 
-  <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-  <link rel="import" href="../iron-component-page/iron-component-page.html">
+  <style>
+    :host {
+      display: block;
+      background: black;
+      color: white;
+      padding: 8px;
+    }
+  </style>
 
-</head>
-<body>
+  <template>
+    <content></content>
+  </template>
 
-  <iron-component-page></iron-component-page>
+</dom-module>
 
-</body>
-</html>
+<script>
+
+  Polymer({
+
+    is: 'test-fit',
+
+    behaviors: [
+      Polymer.IronFitBehavior
+    ]
+
+  });
+
+</script>
