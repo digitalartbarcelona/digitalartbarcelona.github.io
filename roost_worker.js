@@ -2,7 +2,7 @@
 //var _roostSW = {version: 1, logging: true, appKey:"mtdjccewa0gxsdm4wogssfn55mrlhbxm", host: "http://localhost:8081", baseURL: "http://localhost:8081"};
 
 var _roostSW = {
-    version: 1,
+    version: 2,
     logging: true,
     appKey: "mtdjccewa0gxsdm4wogssfn55mrlhbxm",
     host: "https://go.goroost.com"
@@ -21,7 +21,14 @@ self.addEventListener('activate', function(evt) {
 self.addEventListener('push', function(evt) {
     if (_roostSW.logging) console.log("push listener", evt);
     evt.waitUntil(self.registration.pushManager.getSubscription().then(function(subscription) {
-        return fetch(_roostSW.host + "/api/browser/notifications?version=" + _roostSW.version + "&appKey=" + _roostSW.appKey + "&deviceID=" + subscription.subscriptionId).then(function(response) {
+        var regID = null;
+        if ('subscriptionId' in subscription) {
+            regID = subscription.subscriptionId;
+        } else {
+            //in Chrome 44+ and other SW browsers, reg ID is part of endpoint, send the whole thing and let the server figure it out.
+            regID = subscription.endpoint;
+        }
+        return fetch(_roostSW.host + "/api/browser/notifications?version=" + _roostSW.version + "&appKey=" + _roostSW.appKey + "&deviceID=" + encodeURIComponent(regID)).then(function(response) {
             return response.json().then(function(json) {
                 if (_roostSW.logging) console.log(json);
                 var promises = [];
@@ -29,7 +36,7 @@ self.addEventListener('push', function(evt) {
                     var note = json.notifications[i];
                     if (_roostSW.logging) console.log("Showing notification: " + note.body);
                     var url = "/roost.html?noteID=" + note.roost_note_id + "&sendID=" + note.roost_send_id + "&body=" + encodeURIComponent(note.body);
-                    promises.push(showNotification(note.title, note.body, url, _roostSW.appKey));
+                    promises.push(showNotification(note.roost_note_id, note.title, note.body, url, _roostSW.appKey));
                 }
                 return Promise.all(promises);
             });
@@ -70,11 +77,11 @@ function handleNotificationClick(evt) {
 }
 
 //Utility function to actually show the notification.
-function showNotification(title, body, url, appKey) {
+function showNotification(noteID, title, body, url, appKey) {
     var options = {
         body: body,
         tag: "roost",
-        icon: _roostSW.host + '/api/browser/logo?size=100&direct=true&appKey=' + _roostSW.appKey + '&url=' + encodeURIComponent(url)
+        icon: _roostSW.host + '/api/browser/logo?size=100&direct=true&appKey=' + _roostSW.appKey + '&noteID='+ noteID + '&url=' + encodeURIComponent(url)
     };
     return self.registration.showNotification(title, options);
 }

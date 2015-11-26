@@ -39,10 +39,33 @@
                 }
             }
 
+            function denied() {
+                if (window && window.parent && "postMessage" in window.parent) {
+                    parent.postMessage(JSON.stringify({
+                        type: "registered",
+                        denied: true,
+                        deviceToken: null,
+                        enabled: false,
+                        firstTime: false
+                    }), "*");
+                }
+            }
+
+            function noAnswer() {
+                if (window && window.parent && "postMessage" in window.parent) {
+                    parent.postMessage(JSON.stringify({
+                        type: "registered",
+                        enabled: false,
+                        deviceToken: null,
+                        firstTime: false
+                    }), "*");
+                }
+            }
+
             if (supportsPush) {
                 var alreadyAnswered = Notification.permission != "default";
                 var tags = query.tags;
-                var host = query.host && query.host.length > 0 ? query.host[0] : "https://go.goroost.com";
+                var host = "https://go.goroost.com";
                 var alias = query.alias && query.alias.length > 0 ? query.alias[0] : null;
                 var appKey = query.appKey && query.appKey.length > 0 ? query.appKey[0] : null;
                 var firstTime = query.firstTime && query.firstTime.length > 0 ? query.firstTime[0] === "true" : !alreadyAnswered;
@@ -74,10 +97,16 @@
                             if (logging) console.log("SW ready", swr);
                             //We don't want to fire two events in the case that the service worker does install early.
                             if (alreadyAnswered) {
-                                swr.pushManager.subscribe({userVisible: true}).then(
+                                swr.pushManager.subscribe({userVisibleOnly: true}).then(
                                     function (pushRegistration) {
                                         if (logging) console.log("registered", pushRegistration);
-                                        var regID = pushRegistration.subscriptionId;
+                                        var regID = null;
+                                        if ('subscriptionId' in pushRegistration) {
+                                            regID = pushRegistration.subscriptionId;
+                                        } else {
+                                            //in Chrome 44+ and other SW browsers, reg ID is part of endpoint, send the whole thing and let the server figure it out.
+                                            regID = pushRegistration.endpoint;
+                                        }
                                         //this stays the remote host, even if "custom"
                                         loadFrame(host + "/api/frame/register?deviceToken=" + encodeURIComponent(regID) + params);
                                     }, function (error) {
@@ -94,8 +123,14 @@
                             if (logging) console.log("Reloading internal frame to cement SW install.");
                             setTimeout(function() {
                                 window.location.href = window.location.href + "&firstTime=" + firstTime;
-                            }, 200);
+                            }, 1500);
                         }
+                    } else if (permission === "denied") {
+                        //post an event back that we were denied.
+                        denied();
+                    } else {
+                        //user clicked 'x'
+                        noAnswer();
                     }
                 });
             }
