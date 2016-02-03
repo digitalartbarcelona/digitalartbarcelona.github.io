@@ -1,4 +1,3 @@
-<!doctype html>
 <!--
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
@@ -8,17 +7,43 @@ The complete set of contributors may be found at http://polymer.github.io/CONTRI
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
-<html>
-<head>
 
-  <title>iron-image</title>
-  <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-  <link rel="import" href="../iron-component-page/iron-component-page.html">
+<link rel="import" href="../../polymer/polymer.html">
 
-</head>
-<body>
+<link rel="import" href="../iron-overlay-behavior.html">
 
-  <iron-component-page></iron-component-page>
+<dom-module id="test-overlay2">
 
-</body>
-</html>
+  <style>
+
+    :host {
+      background: white;
+      color: black;
+      border: 1px solid black;
+    }
+
+  </style>
+
+  <template>
+    <content></content>
+  </template>
+
+</dom-module>
+
+<script>
+
+(function() {
+
+  Polymer({
+
+    is: 'test-overlay2',
+
+    behaviors: [
+      Polymer.IronOverlayBehavior
+    ]
+
+  });
+
+})();
+
+</script>
